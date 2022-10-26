@@ -1,0 +1,96 @@
+Uri: http://bqgames.ddns.net/
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\index.htm
+Content Type: text/html
+
+Uri: http://bqgames.ddns.net/AdBlockPremiumFiltersByDinton/
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\AdBlockPremiumFiltersByDinton\index.htm
+Content Type: text/html
+
+Uri: http://bqgames.ddns.net/AdBlockPremiumFiltersByDinton/AdBlockPremium_newsletter.txt
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\AdBlockPremiumFiltersByDinton\AdBlockPremium_newsletter.txt
+Content Type: text/plain
+
+Uri: http://bqgames.ddns.net/AdBlockPremiumFiltersByDinton/AdBlockPremium_push.txt
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\AdBlockPremiumFiltersByDinton\AdBlockPremium_push.txt
+Content Type: text/plain
+
+Uri: http://bqgames.ddns.net/AdBlockPremiumFiltersByDinton/AdBlockPremium_survey.txt
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\AdBlockPremiumFiltersByDinton\AdBlockPremium_survey.txt
+Content Type: text/plain
+
+Uri: http://bqgames.ddns.net/AdBlockPremiumFiltersByDinton/AdBlockPremium_video.txt
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\AdBlockPremiumFiltersByDinton\AdBlockPremium_video.txt
+Content Type: text/plain
+
+Uri: http://bqgames.ddns.net/ameno/
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\ameno\index.htm
+Content Type: text/html
+
+Uri: http://bqgames.ddns.net/ameno/jquery_official_din.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\ameno\jquery_official_din.js
+Content Type: application/javascript
+
+Uri: http://bqgames.ddns.net/compare/
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\compare\index.htm
+Content Type: text/html
+
+Uri: http://bqgames.ddns.net/compare/clipboard.min.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\compare\clipboard.min.js
+Content Type: application/javascript
+
+Uri: http://bqgames.ddns.net/compare/diff_mat2.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\compare\diff_mat2.js
+Content Type: application/javascript
+
+Uri: http://bqgames.ddns.net/compare/localstoragest.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\compare\localstoragest.js
+Content Type: application/javascript
+
+Uri: http://bqgames.ddns.net/compare/special_character_html.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\compare\special_character_html.js
+Content Type: application/javascript
+
+Uri: http://bqgames.ddns.net/DS/
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\DS\index.htm
+Content Type: text/html
+
+Uri: http://bqgames.ddns.net/DS/532.css
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\DS\532.css
+Content Type: text/css
+
+Uri: http://bqgames.ddns.net/DS/DiscordSCAM.txt
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\DS\DiscordSCAM.txt
+Content Type: text/plain
+
+Uri: http://bqgames.ddns.net/F.jpg
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\F.jpg
+Content Type: image/jpeg
+
+Uri: http://bqgames.ddns.net/fonWS.gif
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\fonWS.gif
+Content Type: image/gif
+
+Uri: http://bqgames.ddns.net/fonWS.mp3
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\fonWS.mp3
+Content Type: audio/mpeg
+
+Uri: http://bqgames.ddns.net/G.png
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\G.png
+Content Type: image/png
+
+Uri: http://bqgames.ddns.net/jquery_official_din.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\jquery_official_din.js
+Content Type: application/javascript
+
+Uri: http://bqgames.ddns.net/LOLbyDintonBQ(LimonnoOlivkoviiLyk).png
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\LOLbyDintonBQ(LimonnoOlivkoviiLyk).png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\ajax\libs\jquery\1.9.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://discord.com/assets/ec2c34cadd4b5f4594415127380a85e6.ico
+File Name: C:\Downloaded Web Sites\bqgames.ddns.net\assets\ec2c34cadd4b5f4594415127380a85e6.ico
+Content Type: image/vnd.microsoft.icon
+

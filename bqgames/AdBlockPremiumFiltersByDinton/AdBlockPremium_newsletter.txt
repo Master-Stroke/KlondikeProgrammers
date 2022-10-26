@@ -1,0 +1,2246 @@
+[Adblock Plus 2.0]
+! Version: 202201231733
+! Title: DistractionControl-Newsletter
+! Last modified: 23 Jan 2022 17:33 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://help.getadblock.com/support/home
+! 
+! -----------------------General blocking filters-----------------------!
+! *** distraction-control:newsletter/blocking_general.txt ***
+! 
+! general blocking rules
+! 
+
+sleeknotestaticcontent.sleeknote.com
+
+||js.driftt.com/include$script
+
+||assets.ubembed.com/universal$script
+
+||lightboxcdn.com/vendor$script
+
+||mailocator.net/_/$script
+
+cdn1.pdmntn.com
+
+||static.mailerlite.com/js$script
+
+||pmdstatic.net/bundle.php$script
+
+||front.optimonk.com/public/$script
+
+/wp-content/plugins/newsletter-leads
+
+||downloads.mailchimp.com/js/signup-forms$script
+
+||conduit.mailchimpapp.com/js/stores$script
+
+||a.optmnstr.com/app/js/$script
+
+||getsocial.io/client$script
+
+||static.ctctcdn.com/js/signup-form-widget$script,domain=~centerforhealthsecurity.org
+
+||cdn.justuno.com/mwgt$script
+
+||a.mailmunch.co/app/$script
+
+/newsletterPopup.js
+
+/pmgnews/overlay/newsletter
+
+||dotmailer-surveys.com/scripts/survey.js$script
+
+||yieldify.com/yieldify/code.js$script
+
+||widget.privy.com/assets/widget.js$script
+
+sumo.b-cdn.net
+
+||connect.nosto.com/include$script
+
+||chimpstatic.com/mcjs-connected/js/users$script
+
+||assets.pcrl.co/js/$script
+
+/wp-content/plugins/email-subscribers/widget/es-widget-page.js
+
+||youlead.pl/Scripts/Dynamic.js$script
+
+||m8.mailplus.nl/genericservice$script
+
+||restapi.mailplus.nl/integrationservice$script
+
+||snrcdn.net/sdk/$script
+
+||cdn.dynamicyield.com/api$script,domain=~haix.de
+
+||static.newsletter2go.com/utils.js$script
+
+/widget/ecNewsletterPopup/*
+
+||a.optmstr.com/app/js/$script
+
+||api.autopilothq.com/anywhere/$script
+
+||c.salecycle.com/osr/config$script
+
+/wp-content/plugins/thrive-leads/*$domain=~itnator.net
+
+/wp-content/plugins/bloom/*
+
+||js.hsleadflows.net/leadflows.js$script
+
+/clientlib-newsletter.js
+
+||c.lytics.io/static/pathfora$script
+
+email-signup-form-popup.js
+
+||netpeak.cloud/source/js$script
+
+||bunting.com/call$script
+
+||cdn.connectif.cloud/cl1/client-script/$script
+
+/essb-optin-booster.js
+
+f.convertkit.com
+
+api.morningcatch.net
+
+||shopify.privy.com/widget.js$script
+
+load.sumo.com
+
+||cdn.listrakbi.com/scripts/script.js$script
+
+/wp-content/plugins/dreamgrow-scroll-triggered-box/*
+
+||d3bo67muzbfgtl.cloudfront.net/edrone$script
+
+/newsletter_modals.min.
+
+my.hellobar.com
+
+||screenpopper.com/s-hub$script
+
+||static.scarabresearch.com/wpjs$script
+
+||cdn.swellrewards.com/loader$script
+
+||lifterpopup.com/js/modal.js$script
+
+||lpages.co/leadbox$script
+
+||cdn.crall.io/t/client.js$script
+
+||a.opmnstr.com/app/js/$script
+
+||app2.salesmanago.pl/dynamic$script
+
+||se.monetate.net/js/$script
+
+||cdn.blueconic.net/hearst.js$script
+
+/js/website/modal-newsletter~rc-module-newsletter
+
+||cdn.omniconvert.com/js$script
+
+||cdn.omniconvert.com/async/js$script
+
+/frosmo.easy.js
+
+||static-sb.com/js/sb-tracker.js$script
+
+||mailmojo.no/sdk.js$script
+
+/wp-content/popupally-pro-scripts
+
+||media-inea.ipresso.pl/monitoridentification$script
+
+/wp-content/plugins/mailoptin/*
+
+||a.optnmnstr.com/app/js/$script
+
+||static.popmechanic.ru/service/loader.js$script
+
+static.zotabox.com
+
+||marketbeat.com/scripts/modal/affiliatepopup.js$script
+
+||widget.pico.tools/static/js/bundle.js$script
+
+||powr.io/powr.js$script
+
+/wp-content/plugins/layered-popups/*
+
+/wp-content/plugins/mailchimp-for-wp/*
+
+||bounceexchange.com/tag$script
+
+tag.bounceexchange.com
+
+||leadpages.net/leadboxes/current$script
+
+||flodesk.com/universal.js$script
+
+||activehosted.com/f/embed.php$script
+
+/wp-content/plugins/99robots-optin-fire/*
+
+||getresponse.com/view_webform$script
+
+||get.exitintel.com/load.js$script
+
+/popup-by-supsystic/*
+
+||cdn.jst.ai/mwgt$script
+
+||milotree.com/container$script
+
+/zaius-min.js
+
+/wp-content/plugins/convertplug/*
+
+/wp-content/plugins/optin-monster/*
+
+.wisepops.com/get-loader.js
+
+api.exponea.com
+
+/ouibounce.min.js
+
+||bluecore.com/triggermail$script
+
+||cloudiq.com/tag$script
+
+||leadpages.net/leadbars/current/embed.js$script
+
+||s.sloyalty.com/site_media$script
+
+||klaviyo.com/onsite/js/vendors~signupForms$script
+
+/vidstore-popups/assets/public/js/newsletter.min.js
+
+||app-abd.marketo.com/js$script
+
+||omappapi.com/app$script
+
+tag.getdrip.com
+
+||zoho.com/js/optin$script
+
+/entries?content_type=staticContentBlock&fields.id=email-capture
+
+||cloud-iq.com/cartrecovery/store.js$script
+
+/axnewsletter.js
+
+/wp-content/plugins/popupally
+
+api.omappapi.com
+
+/email-capture/email-capture-
+
+||californiatimes.com/newsletter-campaign-manager$script
+
+||quitsnap-blue.com/js/os_engine.js$script
+
+/wp-content/plugins/convertpro/*
+
+/wp-content/plugins/optin-revolution/*
+
+||addthis.com/js/300/addthis_widget.js$script
+
+api-cis.exponea.com
+
+||api.traq.li/public/sdk$script
+
+tracking.retargeting.biz
+
+ping.contactpigeon.com
+
+/newsletter-invite.js
+
+/Action-Subscribe-2019.js
+
+||convertbox.com/convertbox$script
+
+||birdsend.co/assets/static/js/pixel/main.js$script
+
+||hd.koloo.net/oo.js$script
+
+||receiptful.com/scripts/shopify.js$script
+
+t2.netsalesmedia.pl
+
+content.govdelivery.com
+
+api.pushnami.com
+
+/js/deploy/syndicated-newsletter
+
+||klaviyo.com/onsite/js/signup_forms$script,domain=~ufpro.com
+
+popup.popupsmart.com
+
+/mol-fe-newsletter-popup/*
+
+cdn.popt.in
+
+||data.whizeo.com/widgets$script
+
+||securedvisit.com/js/sv.js$script
+
+||dev.visualwebsiteoptimizer.com/j.php$script
+
+||convertkitqa.com/ckjs$script
+
+||bounceexchange.com/assets/smart-tag$script
+
+||adoric-om.com/adoric.js$script
+
+/wp-content/plugins/woo-coupon-box/*
+
+forms.convertkit.com
+
+||sdks.automizely.com/conversions$script
+
+cdn.attn.tv
+
+||cdn.threadloom.com/ga$script
+
+/js/website/modal-newsletter
+! -----------------------Specific blocking filters-----------------------!
+! *** distraction-control:newsletter/blocking_specific.txt ***
+! 
+! site specific blocking rules
+! 
+
+||s.m3medical.com/popup/popup.production.js$script,domain=m3medical.com
+
+ajax-open-layer?layerID=/nlsublay$domain=hessnatur.com
+
+NotificationDisclaimerControl.js$domain=vontobel.com
+
+list-builder.js$domain=wanderlust.co.uk
+
+/amd_modules/newsletter-hover$domain=webmd.com
+
+/politica-privacidade/lightbox$domain=toysrus.pt
+
+/opentag-$domain=jet2.com
+
+global-lightbox.js$domain=drschollsshoes.com
+
+/wpp-popup-frontend.js$domain=globalvoices.org
+
+/email.js$domain=tp-link.com
+
+||ibt-mail.com/view_webform$script,domain=ibtimes.com
+
+/lightboxform.js$domain=tips.net
+
+/esm.js$domain=yamahamotorsports.com
+
+/aiosp-jsonp.js$domain=kleren.com
+
+/vol-modal/*$domain=thepaintstore.com
+
+||imimg.com/js/reqForms.min.js$script,domain=indiamart.com
+
+try.abtasty.com$domain=leparisien.fr
+
+/Action-Subscribe$domain=naturalnews.com
+
+/sharing/popover.js$domain=mymemory.co.uk
+
+/popup/tsr$domain=superyachtnews.com
+
+/simpleSignupManager.chunk.js$domain=manning.com
+
+cdn-promote.weebly.com$domain=weebly.com
+
+/acquisition-tag.js$domain=latribune.fr
+
+/pharmapopin/*$domain=pharmasimple.com
+! ------------------------General element hiding rules-------------------------!
+! *** distraction-control:newsletter/hiding_general.txt ***
+! 
+! general hiding rules
+! 
+
+##.floating-alert[ng-if*="Subscription"]
+
+##.pmc-newsletter[class*="top"]
+
+##body > #newsletter-floating
+
+##.et_bloom_popup.et_bloom_optin
+
+##.-newsletter-signup[data-module="popup-scroll"]
+
+##.simple-promotion-wrapper > .simple-promotion[href*="Newsletter"]
+
+###tt_follow > iframe
+
+###nlgate.sticky
+
+###newsletterflyin
+
+##.newsletter.alert-dismissible
+
+##body.blog > .wrapper > .fixed-connect
+
+##body.blog > .fixed-connect
+
+##.footer_social .newsletter
+
+###sleek.active > .placeholder
+
+###sleek.active.open
+
+##.foxbox[id*="Subscribe"]
+
+###newsletter_box
+
+##.nlbanner-grid
+
+##.cp-module.cp-optin-container
+
+##.freePointWrap
+
+##.pmc-newsletter-bandeau
+
+###slidead-popup
+
+###EDM-popUp.EDM-popUp
+
+##.wph-modal.inc_opt_slidein
+
+##.newsletter-cta-box-wrapper
+
+###kameleoonWidgetOverlay
+
+##.kameleoonNewsLetterWrapper
+
+##.speak-wordpress-popup
+
+###newsletterOverlayBg
+
+###newsletterOverlay
+
+###dataCaptureAuthor
+
+##.seattle-optin-visible
+
+###newsletter-signup-dialog
+
+##.push-box--banniere
+
+###mx-newsletter-badge
+
+##.chicago-optin-visible
+
+###newsletter-toaster
+
+###newsletterMsg
+
+###PopupSignupForm_0
+
+##.overlay--newsletter
+
+##.l-layer__newsletter
+
+##.baltimore-optin-visible
+
+###newsletterSubContainer
+
+###subscribe_modal_container
+
+###subscribe_modal_container ~ #spotlight
+
+##.mailmunch-overlay
+
+##.mailmunch-popover
+
+###newsletter_popin
+
+###popin-newsletter
+
+###mobile-nl-form
+
+##.js-newsletter-exit-popup
+
+##.et_bloom_flyin.et_bloom_optin
+
+###subscribe-overlay
+
+##.optin-monster-saas-overlay
+
+##.js-captation-email-bottom
+
+###pre_box_newsletter
+
+###pre_box_newsletter + #box_newsletter
+
+##.denver-optin-visible.denver-full-page-takeover
+
+##.notification---mailing-list
+
+###newsletterPopup[style*="block"]
+
+##.email-capture.email-capture--active
+
+###shopify-section-newsletter
+
+##iframe[src*="usehoney.io/embed/widget/"]
+
+###new_newsletter_box.hidden-print
+
+###newsletterLink[data-url*="popup/newsletter"]
+
+##tracker.cartprotector.com
+
+##.catfish.catfish-bottom.newsletter
+
+##.cta-modal.cta-modal-subscribe
+
+###newletter_form_popup
+
+###hw_subscribe_popup
+
+##form[action*="list-manage.com/subscribe"][style*="block"]
+
+##.hl_doboz > form[action*="hirlevel"]
+
+###shopify-section-promo-pop
+
+##body > .newsletterBox
+
+##body > #site > .newsletter-subscription
+
+##body > .newsletter.newsletter--box
+
+##body > #newsletter-footer
+
+##.b-newsletter-popup
+
+###newslettericon.news-icon
+
+###subscriptionModalS
+
+##.newsletterWidget[data-module="newsletterWidget"]
+
+##.floating-newsletter-widget--overlay
+
+##.nav-fixed a[href*="subscribe"]
+
+##body > .subscribe-blog
+
+##.sticky-bar .global_email_subscription
+
+##.drip-tab-container .drip-tab
+
+###sleeky.notification-newsletter
+
+##div[data-react-class*="EmailSignup"]
+
+###newsletter-invite.invite-show
+
+###box_newsletter.fx-active
+
+##.StickySubscribeBar
+
+##.top-linkbox.tl-nl
+
+##.block-dennis-newsletter
+
+###newsletter_subscribe_popup
+
+##.newsletterOverlay.showing
+
+##body > #newsletter-layer-fixed-position.btn
+
+###sidebar .block-inscription-newsletter
+
+##div[data-omnituremodule*="Popup"] .mod-newsletter-sidebar
+
+###floating_subscribe.footer_block
+
+##.js-badge-link.badge-link--newsletter
+
+##.newsblock-promo-popup
+
+###page-content > .subscribe-post > .subcribe-content-wrapper
+
+##footer ~ #newsletter-slider
+
+##.ue-c-newsletter-widget
+
+##.newsletter-banner.newsletter-banner--opened
+
+##.n-footer__bottom-banner-wrapper--open[href*="newsletter"]
+##.footer__flap[href*="newsletter"]
+
+###at-cv-toaster.at-cv-mask
+
+###footer ~ #newsletter_advertising
+
+###stl-newsletter.stl-overlay
+
+###footer ~ #newsletter-widget
+
+###emailSignupTopNav[aria-labelledby*="Email"]
+
+##.pop-out-position .pop-out-item[href*="nyhedsbrev"]
+
+##one-time-show[name="newsletter-slide-up"]
+
+##.bottom-right-subscribe.hide[style*="block"]
+
+###boxNewsletterFlyfooter
+
+##body > #blijf_op_de_hoogte
+
+###page > .nlpopin[style*="block"]
+
+##.newsletter-signup-content.floating-instance
+
+##.sticky-wrapper .header-wrapper.stuck #subscribe
+
+###app-page-subscriber-teaser.teaser-newsletter
+
+##body > section#newslettermodal
+
+##.feed-fixed-handle.active[ng-click*="gotoFeed"]
+
+##.sm_computer[id*="email_container"][style*="block"]
+
+##.newsletter-subscriber.fixed[data-sticky]
+
+##.emailReengagement[data-context="emailReengagement_sign_up_popup"]
+
+###popup > .newsletter-popup.newsletter-popup--visible
+
+##.left-bar-cta .scroll-to-nl
+
+##.fx-help > .item[href*="newsletter"]
+
+###site-popup #newsletter-sticky-link
+
+##body > #frontline_newsletter_please
+##body > #frontline_newsletter_over
+
+##body > emailsignup
+
+##body > #email-popup-modal[style*="block"]
+
+##body > #newsletter_overlay.overlay-nl
+
+##.hustle-ui.hustle-slidein.hustle-show
+
+##.global-footer-container .global-footer-item.item-newsletter
+
+###newsletter_popup.newsletter_popup.active
+
+###wrap > #newsletter-link
+
+##.contact-sidebar > .iconholder > .newsletter
+
+##.m-newsletter-toaster.slideIn
+
+##.omaha-background.omaha-optin-visible
+
+##.washington-background.washington-optin-visible.washington-footer
+
+##.main .slideup-nl.slideup.position-up
+
+##.cz_popup_modal[id*="newsletter"][style*="block"]
+
+##.stickyNewsLettersModule.subscribeNewsletter
+
+##.push-to-newsletter > .newsletter-trigger
+
+##.footer .newsletter__wrapper.sticky
+
+###sendgrid_mc_email_subscribe.show
+
+###SubscribePopUpBox.subscribe-popup-overlay
+
+##.newsletter-slideout[data-uri*="newsletter"]
+
+##.cp-popup-content.cp-slide_in[data-title*="eBooks"]
+
+##body > #popup-newsletter[style*="bottom"]
+
+###LightBox_infolettre[style*="block"]
+
+##.js-newsletters-popup.newsletters__popup
+
+###newsletter-popin.show
+###newsletter-popin.show ~ .blockOverlay
+
+##.raleigh-background.raleigh-optin-visible
+
+##.content-toaster.content-toaster--newsletter
+
+##.newsletter-toaster.yr-newsletter-toaster
+
+###component-modal-newsletter
+
+###post-page-newsletter-popin.active
+
+###Noodle-LiteRegistration-container.popup-newsletter
+
+##body > .banner-newsletter
+
+##.w-actions > .w-actions__fab[data-label*="newsletter"]
+
+###js-newsletter-toaster.newsletter-toaster
+
+##.js-holiday-email-signup-layer
+
+##.section.cmp-news-banner.opened
+
+##body > aside > .button[href*="newsletter"]
+
+##body > #stickyNslWrap
+
+##.sign-up-container-overlay.js-bf-sign-up-container.show-popup
+###bf-signup.show-popup
+
+##.barnav-container .newsletterBar
+
+##.newsletter_popup_fixed
+
+##.newsletter-popup[style*="block"]
+
+##.overflow-wrapper > #newsletter__widget
+
+##.stickyNewsletterBar.open
+
+##.en_hint[data-name*="newsletter"][data-en-hint-position]
+
+###ddexitpopwrapper.open
+
+##.com-sticky-newsletter.com-sticky-newsletter--spaced
+
+###tm-newsletter-popup.newsletter-popup-wrap
+
+##.footer_body .btt_newsletter.has_tooltip
+
+##.popup-newsletter.prss-overlay[style*="block"]
+
+##.ui-dialog.email-signup-dialog-module
+##.ui-dialog.email-signup-dialog-module ~ .ui-widget-overlay
+
+##.test-newsletter-overlay[style*="display"]
+
+###SideBar .sideBarItem.newsletter
+
+##body > .newsletter.cta-popup-wrapper
+
+##.simplesignuppro .mc_embed_signup
+
+###content > a[href*="newsletter"] > #btnNewsletterOuter
+
+##.social-badge .newsletterLink
+
+##body > #new-nl-placeholder
+
+###mailch-bg.mailch-bg.open
+
+##.container-fluid.newsletter_section.slideup
+
+###exit_intent_outer_wrapper[style*="visible"]
+
+###newsletter-popin.newsletter-popin[style*="display"]
+
+###fp-newsletter-popup.active
+
+##.sticky-bar.newsletter-bar
+
+###omnisend-dynamic-container
+
+##.cxp-email-capture-banners
+
+##.react-newsletter-signupwall
+##.react-newsletter-overlay
+
+###signup-header-banner[data-assembly-source]
+
+##.component-slider-email-capture > .slider-email-fixed-wrapper
+
+###mailinglist_popup
+###mailinglist_popup + div[class*="overlay"]
+
+##.popup.popup--mailing-list
+
+##.EmailCapture.EmailCapture--footerContainer
+
+###newsletter-floating.sandiego
+
+###springmail_modal
+##.springmail-overlay
+
+###newsletter-box.newsletter-box--visible
+
+##.couponFlap-container.qa-socialMediaUser
+
+##.piano-newsletter-sticky-wrapper
+
+##body > .c-quick-register.j-quick-register
+
+##div[data="component:newsletter"] #newsletterBox
+
+###container > #subscribenews[style*="block"]
+
+##.newsletterPopupWrapperContainer
+##.newsletterPopupWrapperContainer ~ .ui-widget-overlay
+
+##.newsletter-subscription-popup[style*="display"]
+
+##.wrapper > .popupnewsletter
+
+##.site-wrapper > .newsletter.roll-in
+
+###sliderbox[class*="newsletter"]
+
+##.tm-subscribe.tm-subscribe--sticky
+
+##.snippetReference.reference-email-tip-popup
+
+##.newsFlyout > a[onclick*="newsletter"]
+
+###subscribe-row.sticky.is-stuck.is-at-bottom
+
+##.shopui--modal[data-newsletterpopup]
+
+##.subs-popup.subs-popup--subscribe.show
+
+##div[am-sticky="newsletter"][style*="block"]
+
+##body > .flag > .flag__item--newsletter
+
+###letter-shopping-Plugin.letter-shopping-modal-container
+
+##body > #news_popup.news_popup
+
+###footer-email-form.is-active
+
+##.auto-subscribe-tip.show-tip
+
+##.fixed-bar-newsletter
+
+###fixed-bar-news-letter
+
+###newsletter-pop-up[data-newsletter-pop-up]
+
+###signupModal[class*="newsletter"]
+
+##.pp-email-subscribe.show
+
+###floating-menu .button_wrap[class*="newsletter"]
+
+##.newsletter_popup[style*="block"]
+
+##.nx-smart-push
+
+###SubscribePopUpBox .vertical-newsletter
+
+##.popup_wrapper.bk-coupon-box-wrapper.couponbox-opened-transition
+
+###mailchimp-top-bar
+
+###newsletter-popup-wrapper
+
+##.pane-bean-email-capture.widget-block.show
+
+###subscribe.from-bottom.show
+
+##vu-newsletter-sticky[ng-if="hideNewsLetter"]
+
+##.footer__block-email__open
+
+##.newsletter-holder[style*="right"]
+
+##ww-newsletter-popup
+
+##.help-center.sticky .infobox-newsletter
+
+###gatsby-focus-wrapper > div[class*="SubscribePopup-module"]
+
+##.newsletter-popup.js-newsletter-popup
+
+###newsletterLayer[data-widget="newsletter"]
+
+###id_newsletter_subscription_popup
+
+###kinja-data ~ .js_modal_exit_intent
+
+##.newsletter-layer__container
+
+###newsletter-widget.mod-teaser
+
+##.footer .module-container.bottom-newsletter
+
+###slide-box-wrapper.mod-sidebar #newsletter
+
+##.sticky-note[href*="newsletter-signup"]
+
+###link-newsletter[cookie-key*="NewsletterPopup"]
+
+##.newsletter-window.has-background-info
+
+##.stickyButton a[href*="subscribe-to-newsletter"]
+
+###main > .nl-share[href*="newsletter"]
+
+###specialdeals-newsletter
+
+##.is-newsletter.js-popup-toggle
+
+###__next div[class*="NewsletterPopupComponent"]
+
+##body > #subscribe-to-newsletter
+
+##.sidebarmenu a[href*="newsletter"]
+
+##body > #newsletter-link
+
+###persistentNewsletter[data-analytics*="SideBar"]
+
+###wrapper[role="banner"][aria-labelledby="popEmailFormLabel"]
+
+##.footer ~ .newsletter.visible
+
+###section-newsletter.active
+
+##.page-footer .btnnewsletter
+
+###NNSubscribeBar[style*="block"]
+
+##hp-subscriber-widget-container
+
+##.pg-se-nl.newsletter_top
+
+###dcx-btnnews.dcx-btnnews__container
+
+##.iframe-popup-full.cp-iframe[src*="newsletter"]
+
+##.ulp-overlay
+##.ulp-window-container
+
+##.global-newsletterBanner
+
+###nlPopup.popup-container
+
+###footer ~ .newsletter-popup.open
+
+###container-module-newletter
+
+##.emailRegistrationPopupWrapper
+
+##footer .newsletterIcon-container
+
+###newsletter.active[data-show-after]
+
+##.exitStoerer[class*="newsletter"]
+
+###shopify-section-newsletter-pill
+
+###exitModalOverlay[class*="Newsletter"]
+
+##email-capture-banner
+
+##.custom-html-widget .newsletter-modal
+
+##.skinny-signup[data-json*="newsletter"]
+
+###collapse-newsletter.show
+
+##.informationBoxFixed[data-informatonid*="newsletter"]
+
+###nl-banner[class*="bounce"]
+
+##.subscr-email-offer
+
+##.js-subscription-tooltip.is-open
+
+##.newsletterSubscribeContainer
+
+###newsletter-modal[x-show="open"]
+
+##.mailchimp_wrapper[style*="block"]
+
+##.elementBox[data-infoid*="newsletter"]
+
+###___gatsby #Email-pop-out
+
+###__next > div[class*="newsletter-subscribe"]
+
+##.email__toaster-component
+
+###__next [data-debug-name*="newsletter-popup"]
+
+##.subscribe-modal.show-popup[id*="newsletter"]
+
+###newsletter-west-end
+
+##.b-email_popup-notification
+
+###footer ~ #NLBar
+
+##.container-newsletter-toaster.is-newsletter-visible
+
+##.css-reset div[id*="referralfetch-signup"]
+
+##.site-newsletter-popup
+
+###popinInscriptNL
+
+##.popin-newsletter.visible
+
+##triggerbee-widget
+
+##.newsletterSlideout .newsletterSlideoutContent
+
+###__next div[class*="ToastySubscribe__Me"]
+###__next div[class*="ToastySubscribe__SpeechBubble"]
+
+##.mr_popup--newsletter
+
+##.yotpo-widget-referral-widget
+
+##.newspack-lightbox.newspack-popup
+
+###pop-up-subscriber-form.subscribe-form.popup
+
+##.mailpoet_form_popup_overlay
+##.mailpoet_form_animation_slideup
+
+###componentSubscriptionAbTest.COMPONENT-ESPOT-OVERLAY
+
+###customComponentSubscriptionLoyalty.COMPONENT-ESPOT-OVERLAY
+! ------------------------Specific element hiding rules-------------------------!
+! *** distraction-control:newsletter/hiding_specific.txt ***
+! 
+! site specific hiding rules
+! 
+
+beautysuccess.fr##.head-full
+
+bedford.gov.uk###dialog
+
+economist.com##.modal--exit-pop
+
+4-pieds.com###event-bar
+
+stiripesurse.ro##.newsletter-container
+
+pjmedia.com##.marketing-popup-display
+
+indiegala.com##.newsletter-home-cont
+
+thrifty.com###resstart_0_LocationTime_LightBox
+thrifty.com##.modalBackground
+thrifty.com##.homepage-email-section
+
+blackburndesign.com###shelftrigger
+blackburndesign.com###nlshelfwrapper
+
+howtogeek.com##.email-overlay
+howtogeek.com##.email-overlay + .overlay-wrapper
+howtogeek.com##div[id^="v2campaignpopup"]
+
+streetinsider.com###floating_footer
+
+tuxboard.com##.tingle-modal.welcome-modal1
+
+ikarus.de##.vex-ikr-newsletter
+
+fastcompany.com##.digioh-sidebar-iframe-close
+fastcompany.com##.digioh-sidebar-iframe-close + iframe
+
+elespanol.com###modal_notifications_config
+
+thrillist.com###vortex[src*="signup"]
+thrillist.com###vortex-overlay
+
+teknikmagasinet.se##.section-container > .popup-section
+
+freevector.com##.slidebox-js
+
+hgshop.hr##.newsletter-ponuda
+
+travelist.pl###logregLead
+travelist.pl###modalOverlay
+
+wavesplatform.com###app ~ div
+
+biotechusa.hu###interFloatDiv
+
+hasselblad.com##.prompt > .subscribe
+
+techvorace.com###icegram_messages_container
+
+bairroarte.com##form[name="ventrada"]
+
+eatmebaby.fr##.before-header
+
+favequilts.com###newsletterSignUpDivAnime
+favequilts.com###viewportGreyout
+
+efootwear.eu##.header-callout
+
+ysoft.com##.news-block-item
+
+arenacentar.hr###subscribe-popup
+arenacentar.hr##.popup-background
+arenacentar.hr##.subscribe-block
+
+redaccionmedica.com###recomendado_suscripcion
+
+inverse.com##.nws-ov.modc.modc--r.scrollspy
+
+thewirecutter.com##div[class*="feedback_banner"]
+
+coinrivet.com##.popup.js-dont-go-popup
+
+esslinger-zeitung.de###einklinker
+
+eyebuydirect.com##.js-first-popup
+
+harborfreight.com###container_welcome
+harborfreight.com###welcome_overlay
+
+film-english.com##.reveal-modal
+film-english.com##.reveal-modal-bg
+
+dummies.com##.dummies-newsletter-wrap
+
+yahoo.com###mega-banner
+
+thesslstore.com##.slide-out-div
+
+tut.by##.toster-popup
+
+dermashop.hu##.hirl_bar
+dermashop.hu###hirl_popup
+
+wayfair.de##.ResponsiveModal-wrap
+
+logz.io##.options_page_banner
+logz.io##.blog-subcribe-modal
+
+moneysavingexpert.com###fixed-cross-site-tipbox
+
+mtb-news.de##.mtbn-newsletter-bar
+
+countryside-jobs.com##.addthis_bar.addthis_bar_bottom
+
+mm.dk###large-popup
+
+vet-magazin.si##.nlrcbox
+
+healthunlocked.com##.floating-box-sign-up
+
+perspective-daily.de###newsletterpopup
+perspective-daily.de##._md-dialog-backdrop
+
+prodir.com##.cookie_newsletter
+
+foodscovery.it###hub-lead
+
+drkehayov.com##.notice.notice-subscribe
+
+bizcommunity.com###facebox
+bizcommunity.com###facebox_overlay
+
+feedspot.com##body > #page-container ~ .fixedBar
+
+westonaprice.org##.site-inner .content-sidebar-wrap .flexible-widgets
+westonaprice.org##.footer-widgets > .wrap > .widget_text
+
+londonpass.com###promo_itineraries_slidin
+
+kenkenpuzzle.com##.email-reveal-modal
+kenkenpuzzle.com##.email-reveal-modal ~ .reveal-modal-bg
+
+drscholls.com###newDialog.offerWindow
+drscholls.com###newDialog.offerWindow + #mask
+
+creativebloq.com##.boone-optin-visible
+
+nzz.ch##.stickybar.stickybar--fixed
+
+dehoogheden.nl##.footer ~ .alert
+
+wyborcza.pl##body > .mcBan
+
+ribolovnipribor.hr###mc_closed.ns_rp
+
+blendle.com###sign-up
+
+smartertravel.com##.popUpSFG.show
+
+vogue.cz##.wrapper div[class*="FloatedWrapper"]
+
+altinget.dk##.small-popup
+altinget.dk##.large-popup
+
+segmentnext.com##.aksile-silo-drawer.top
+
+hachette-vins.com##.overlay-newsletter.active
+
+best2serve.com###content > .tab_mail
+best2serve.com###content > .tab_mail ~ .lightbox
+
+siliconrepublic.com###careers-modal-background
+
+haugenbok.no##.nl-wrapper[style*="block"]
+
+realme.com###rm-reserve-overlay
+
+roadtovr.com##.mpp-popup[data-form-type="user-subscription"]
+
+passeportsante.net##.m6Flash_box
+passeportsante.net###aside .is-sticky
+
+mcneelamusic.com##._form-wrapper._form_show
+
+amazingmarvin.com##.App ~ .colored-banner
+
+britmovietours.com##.spu-box
+britmovietours.com##.spu-bg
+
+eset.com###eset_newsletter
+eset.com###newsletter-box
+
+aeon.co##body > div[data-react-class="Aeon.NewsletterPopup"]
+
+emag.ro##.ns-wrap-bottom-right
+
+dr.dk##.page-overlay
+dr.dk##.js-active[data-cookie-name="drr-onboarding-popup-cookie"]
+
+10-4.dk##.newsletter[style*="right"]
+
+nature.com##.c-site-messages--nature-briefing
+
+365.bank##.wrapper > .sticky
+
+lightinthebox.com##.pop-email-new.in
+lightinthebox.com##.modal-backdrop
+
+asket.com##.newsletter-overlay
+
+everaccountable.com##.section--center-widgets
+
+powerandcables.com###bkgOverlay
+powerandcables.com###delayedPopup
+
+justapinch.com###rcp_modal_background
+justapinch.com###rcp-email-signup
+
+psycom.net###modalpop
+
+co2online.de###traffic-shaping-overlay
+
+knifecenter.com###lgsubscriber
+
+nordvpn.com##.SubscribeBlog
+nordvpn.com##.modal-backdrop
+
+lubimyczytac.pl##.footer__fixed
+
+legalstart.fr###qualifiante-popup
+legalstart.fr##.modal-backdrop
+
+thewatchindex.com###newsletterSignUpDivAnime
+thewatchindex.com###viewportGreyout
+
+paruvendu.fr###creeral
+
+greeneuropeanjournal.eu###ld-overlayer-bg
+greeneuropeanjournal.eu###ld-overlayer-content
+
+olympia.london##.signup-modal.visible
+
+elektroimportoren.no###newsletterpopup
+
+redhat.com##.subscribe-sidebar
+
+finanztrends.info##.yes_scrollbox
+finanztrends.info##.dgd_stb_box
+
+deutscheskonto.org##.stb-container
+
+sfogoromanista.it###fancybox_ns-overlay
+sfogoromanista.it###fancybox_ns-wrap
+
+rthomasdeluxegrill.net###page-content ~ .pm-follow
+
+penguinrandomhouse.com##.ribbon-offr
+
+lenovo.com##body > div[class$="_main"] > .visible
+
+winemag.com###newsletter-signup-modal
+winemag.com##.reveal-modal-bg
+
+getgoods.com###overlay_teaser
+
+fcaemea.com###btnOpenNewsletter
+
+moen.com###email-signup-app
+moen.com##.modal-overlay
+
+digitalspy.com###cloudiqPersistentOverlayIframe[src*="newsletter"]
+
+dailydot.com##.dd-blueconic
+dailydot.com##.bcToaster
+
+overstock.com###sitewide-lightbox-container
+
+harpers.org###issuem-leaky-paywall-articles-remaining-nag
+
+washingtonpost.com###wallIframe[src*="/subscribe/"]
+
+arbeiterkammer.at###kampagenenleiste-sticky-footer
+
+lyon-beton.com##body > .popup
+
+theconversation.com###page-wrapper ~ .slot
+
+medietilsynet.no##.content > .modal
+
+gz-bag.de###cr_embeded_form
+
+bestwestern.com##.CompanyFollow
+
+gardensalive.com###offerpopybyg
+
+monki.com##.m-teaser-popup
+
+forestriverforums.com###sign_up_email
+forestriverforums.com##.js_lb_overlay
+
+gardeningknowhow.com###bounce
+
+sinsay.com##.newsletter-popup
+
+sloyalty.com##footer ~ div[class*="inc_opt"]
+
+veracode.com##.scroll-sticky-footer
+
+toppr.com###signupPopupWrapper
+
+accessnow.org##.fl-coverlay-iframe
+accessnow.org##.flaccess-iframe
+accessnow.org###menu-get-alerts
+
+fox5dc.com##.alert-banner
+
+billomat.com##.bottom-layer
+
+wayfair.com##.LowIntentModal
+
+stylist.co.uk###root > main + div
+
+chabad.org##.co_dialog_wrapper
+chabad.org##.pageCover
+
+aujardin.info###fade
+aujardin.info###autopromoFB
+
+earth911.com###landing-content > #list-builder
+earth911.com###landing-content > #popup-box
+
+weltbild.de##.off-canvas-content > [data-src*="kampagne"]
+
+gourmetfoodstore.com###divInterstitialContainer
+gourmetfoodstore.com##.js-bgcontainer
+
+simplyrecipes.com###sr-subscribe-popup
+
+letemps.ch##.nl-subscription-container
+
+wwdmag.com##.modal[class*="exit"]
+
+video-shoper.ru##.mainSubscribeDialog
+video-shoper.ru##.ui-widget-overlay
+
+wayfair.co.uk##.ResponsiveModal-wrap
+
+newser.com###divNSS
+
+poppulo.com##.blog-modal
+
+psyche.co###__next header + div > aside ~ div
+
+conservativehome.com###ac-wrapper
+
+computeruniverse.net##.dynotifyjs-corner
+
+spbtv.com###bottom-subscribe
+
+beterbed.nl##.exit-intent
+beterbed.nl##.exit-intent ~ .overlay
+
+volkskrant.nl###NEWSLETTER_BOTTOM
+
+infowars.com###__next > div > div[style*="background"]
+
+crowdin.com###blog-subscription-popup
+
+lamoda.ru##.unipop__container
+
+zentrum-der-gesundheit.de##footer ~ .overlay
+
+audiotop.pl##.box_custom
+
+dasgrad.com##.nl_bg
+
+aufnetflix.de###popup-box
+aufnetflix.de###list-builder
+
+stetson.com###subscribe--popup-wrapper
+
+tekkiwebsolutions.com##.clb-popup
+
+biojournaal.nl##.grey_background
+
+worlddogfinder.com##.ajax-form[action*="newsletter"]
+
+weltderrabatte.de###wdr_leave_nl_reg
+
+rumfatalagerinn.is##.rfl-email-popup
+
+stepstone.de###slider-job-agent-core-site-container
+stepstone.de##.at-jaslider
+
+nonstop2k.com###footerSubscribeContainer
+
+photonics.com###PAN_UserAlert
+
+otakumode.com###vue-product > .guest-mail
+
+canadianinnovationspace.ca##.ticket-popup
+
+strongfirst.com###newsletter
+
+herpothecary.com##.smsbump-sub-form
+
+jaktfall.no###popup
+
+gamesradar.com##.exit-intent
+
+theintercept.com##.ThirdPartySlot-container
+theintercept.com##.ThirdPartySlot
+
+gehaltsvergleich.com##.jobletterModal
+gehaltsvergleich.com##.shader
+
+jobvector.de##.jobmailFlap
+
+gehalt.de##.frame_listing > .slider
+gehalt.de##.jobletterModal
+gehalt.de##.shader
+
+besson-chaussures.com###exit_overlay_OVI
+besson-chaussures.com###shad
+
+joblift.de##.modalCont--optin
+
+wir-hier.de##footer ~ .modal
+
+initiativbewerbungen.com###ib_head_subscription_form_wrap
+
+guns.com##.marketing-container
+
+iracing.com###sms-form.modal-container
+
+democracynow.org###daily_digest_modal
+
+dvdoo.dk###newsSub
+dvdoo.dk###newsSubscriber
+
+hokify.de##.v--modal-overlay.scrollable[data-modal*="jobalarm"]
+
+bagaggio.com.br##.news-modal
+
+g-u.com##.reminder-popup
+
+lovebombd.com##div[id^="smsbump-form"]
+
+ksta.de##.sticky-footer
+
+booooooom.com##div.b-email-popup--active
+
+mandmdirect.de##.signup-modal
+
+ashevillebeecharmer.com##.wppopups-whole
+
+vpntesting.com###subscribe-popup
+
+tomsguide.com##.exit-intent
+
+harvard.edu##.fixed[class*="popup"][x-data*="alpine"]
+
+thehill.com##.block-thehill-signup
+
+dallasobserver.com###NewsletterModal
+
+specscart.co.uk##.blog_pop
+
+inyourarea.co.uk###iya-email-subscription-form
+
+vox.com###toaster
+
+actu-environnement.com###footer_newsletter_actions
+
+whirlpool.com##.leadGenEmailModal
+
+horizonfitness.com##.pdp-popup-container
+
+firstclasswatches.co.uk###OuiOverlay
+
+goboo.com##section[class*="getCouponBox"]
+
+butlertechnik.com##.offer-overlay
+butlertechnik.com###js-offer-wrapper
+
+igeeksblog.com##div[class^="adp-popup"]
+
+empoweringparents.com###ep-floating-signup
+
+ecoparent.ca##.region-popup
+
+hunterboots.com##div[class*="custEmailSignup"]
+
+dogedash.com##.leadinModal-content[aria-label*="Sign up for email"]
+
+joom.com##div[class*="promoCorner"]
+
+healthline.com##.banner-sticky[data-tk-id="cam_stickyembeddedemailbanner"]
+
+brighteon.com##.bottom-banner
+
+letras.mus.br##.alertSubscribe
+
+madewithgolang.com##.alert-bar
+
+axios.com##.cta--modal[amp-access*="experiments"]
+! ---------------------------Snippets---------------------------!
+! *** distraction-control:newsletter/snippet.txt ***
+! 
+! site specific snippet rules
+! 
+
+metaixmio.gr#$#specificClicker '.mfp-ready a[title="Newsletter"]' '.mfp-ready .mfp-close'
+
+archimag.com#$#specificClicker 'iframe[src*="splashify-splash"]' '#cboxClose'
+
+sportmaniac.ro#$#specificClicker '.reveal-modal.open[id*="newsletter"] .close-reveal-modal'
+
+serengo.net#$#specificClicker '.reveal-modal.open .formulaire #email' '.reveal-modal.open .close-reveal-modal'
+
+thebear-storytelling.de#$#specificClicker '.sqs-popup-overlay.visible .sqs-slide-container[class*="newsletter"] .sqs-popup-overlay-close'
+
+legolas.pl#$#specificClicker '#colorbox[style*="block"] #formnewsletter' '#colorbox[style*="block"] #cboxClose'
+
+bostitch.co.uk#$#specificClicker '#colorbox[style*="block"] iframe[src*="data-capture"]' '#colorbox[style*="block"] #cboxClose'
+
+futura-sciences.com#$#specificClicker '.rplm-alert.visible .fsnl-email' '.rplm-alert.visible .close-btn'
+
+o2online.de#$#specificClicker '.modal.in .form-newsletter' '.modal.in .close'
+
+onlineshop.cz#$#specificClicker '#fancybox-wrap[style*="block"] iframe[src*="popup/kupon"]' '#fancybox-wrap[style*="block"] #fancybox-close'
+
+lampe.de#$#specificClicker '#qtmodal[style*="block"] .form-newsletter' '#qtmodal[style*="block"] .close'
+
+brico-travo.com#$#specificClicker '.showed-iqitpopup .iqitpopup-newsletter-form' '.iqit-close-popup span'
+
+philips.com.au#$#specificClicker '.mfp-ready .mfp-iframe-loaded[src*="healthtechproducts.philips.com"]' '.mfp-ready .p-popup-close i'
+
+hellas-tech.gr#$#specificClicker '.popup_wrapper script[src*="mailerlite.com"] ~ .close'
+
+kikocosmetics.com#$#specificClicker '.js-boris[data-is-newsletter] .close'
+
+tv-zakupy.pl#$#specificClicker '.popup[style*="table"] #newsletter_email' '.popup[style*="table"] .closebtn'
+
+medicalnewstoday.com#$#specificClicker '.mobile_newsletter[style*="block"] .newsletter_modal_close'
+
+cbsstore.com#$#specificClicker '#ModalMailingList.in .close'
+
+ziprecruiter.com#$#specificClicker '#createAlertPop.in .modal-close'
+
+balmain.com#$#specificClicker '.mfp-ready[class*="newsletter"] .mfp-close'
+fineshelf.com#$#specificClicker '.mfp-ready[class*="newsletter"] .mfp-close'
+
+klarna.com#$#specificClicker '#section-signup.reveal[style*="block"] .close-button'
+
+borovo.hr#$#specificClicker '.modal.in .newsletter_form' '#button_close'
+
+crocs.co.uk#$#specificClicker '#colorbox[style*="block"] .email-signup-popup-desktop' '#colorbox[style*="block"] #cboxClose'
+
+jobs.intel.com#$#specificClicker '.exit-form.in .close'
+
+dead.net#$#specificClicker '.lightbox-wrapper[style*="block"] .mailinglistwrap' '.lightbox-wrapper[style*="block"] .closewrapper a'
+
+musier-paris.com#$#specificClicker '#sb-container[style*="block"] #popnewsletter_block' '#sb-container[style*="block"] #sb-nav-close'
+
+tupperware.fr#$#specificClicker '#lightwindow[style*="block"] .newsletterPromotion .btn_close'
+
+hr.diesel.com#$#specificClicker '.ui-widget.subscription-container[style*="block"] .ui-dialog-titlebar-close'
+
+qobuz.com#$#specificClicker '#store-launch-info-popin.in #popin-email' '#store-launch-info-popin.in .close'
+
+industrysearch.com.au#$#specificClicker '#subscribe-autoshow-modal[style*="block"] .close'
+
+bareminerals.fr#$#specificClicker '.ui-widget.newusersignup[style*="block"] .ui-dialog-titlebar-close'
+
+nelly.com#$#specificClicker '.active-the-new form[class*="newsletter"]' '.active-the-new .close-it-the-new'
+
+tomshardware.com#$#specificClicker '#ec-modal form[action*="newsletter-subscribe"]' '#ec-modal .close-btn'
+
+secourspopulaire.fr#$#specificClicker '#lightbox iframe[src*="convergence"]' '#bottomNavClose'
+
+cartacapital.com.br#$#specificClicker '.rdstation-popup-newsletter.show .popup-link-close'
+
+rustblade.com#$#specificClicker '.icegram[style*="block"] .ig_button[value*="Subscribe"]' '.icegram[style*="block"] .ig_close'
+
+sklep-wadima.pl#$#specificClicker '.popup-close'
+
+noteboox.de#$#specificClicker '.arcticmodal-container #newsletter-popup .close'
+
+aldi.it#$#specificClicker '.mfp-ready .mfp-iframe[src*="newsletter"]' '.mfp-ready .mfp-close'
+
+pasadenastarnews.com#$#specificClicker '.Mg2-connext.in[class*="newsletter"] .closebtn'
+
+alpin-chalets.com#$#specificClicker '.overlay.active[data-overlay="newsletter"] .overlay_close'
+
+christies.com#$#specificClicker '.fsu-active #close_signup'
+
+greatist.com#$#specificClicker '.promotion-daily-popup-pop #toggle'
+
+medicinenet.com#$#specificClicker '.sc-modal[style=""] iframe[src*="newsletter-signup"]' '.sc-modal[style=""] .close'
+
+bdaily.co.uk#$#specificClicker '.Modal form[action*="subscribe"] + footer button'
+
+instituteforgovernment.org.uk#$#specificClicker '#popup-announcement-wrap:not([style*="none"]) a[href*="newsletter"]' '#popup-announcement-wrap:not([style*="none"]) #popup-announcement-close'
+
+sportowysklep.pl#$#specificClicker '#sc_behind #sc_wrapper #sc_close'
+
+sportowysklep.pl#$#specificClicker '.sm-p-window[data-href*="newsletter"] .sm-p-close'
+
+brownells.no#$#specificClicker '.ui-widget-overlay[class*="newsletter"] ~ .ui-widget[style*="block"] .ui-dialog-titlebar-close'
+
+designtaxi.com#$#specificClicker '.remodal-is-opened[data-remodal-id*="newsletter"] .remodal-close'
+shop.hak5.org#$#specificClicker '.remodal-is-opened[data-remodal-id*="newsletter"] .remodal-close'
+
+revealnews.org#$#specificClicker '.pum-active form[action*="subscribe"]' '.pum-active .popmake-close'
+
+cortefiel.com#$#specificClicker '.ui-widget[style*="block"] .ui-widget-content[class*="newsletter"]' '.ui-widget[style*="block"] .ui-dialog-titlebar-close'
+
+sanaponte.de#$#specificClicker '.zoo-newsletter-popup._show .action-close'
+
+delpozo.com#$#specificClicker '.overlay__content--subscription .fi--close'
+
+timesledger.com#$#specificClicker '#theSignUpBackground[style*="block"] #theSignUpBox .modalCloser'
+
+thesoftwareguy.in#$#specificClicker '.mfp-ready #wp_subscribe_popup' '.mfp-ready .mfp-close'
+
+autoimmunportal.de#$#specificClicker '.tve_lb_open .tve_ea_thrive_leads_form_close'
+
+thenewdaily.com.au#$#specificClicker '.mfp-ready .mfp-content div[class*="subscribe"] .mfp-close'
+
+pharmaciengiphar.com#$#specificClicker '#colorbox[style*="block"] a[href*="newsletter"]' '#colorbox[style*="block"] #cboxClose'
+
+planetbio.si#$#specificClicker '.fancybox-opened div[id*="newsletter"]' '.fancybox-opened .fancybox-close'
+
+bensonandclegg.com#$#specificClicker '.new-customer-modal.in #mc_embed_signup' '.new-customer-modal.in .close'
+
+sarenza.eu#$#specificClicker '#Popin.overlay:not(.hidden) .subscribe' '#Popin.overlay:not(.hidden) .close'
+
+monday.com#$#specificClicker '.exit-popup-overlay .exit-popup-signup' '.exit-popup-overlay .exit-popup-close a'
+
+chanty.com#$#specificClicker '#exit-modal-blackout[style*="block"] .signup-email-form ~ .fine-loosing-time'
+
+intel.com#$#specificClicker '#opt-in-modal-background[style*="block"] .close'
+
+thefreebundle.com#$#specificClicker '#ouibounce-modal[style*="block"] #mc_embed_signup' '#ouibounce-modal[style*="block"] .close'
+
+elle-et-vire.com#$#specificClicker '.jquery-modal[style*="opacity: 1"] #newsletter-popin-form ~ .close-modal'
+
+jh-profishop.at#$#specificClicker '#newsletter-layer.in #newsletterClose'
+
+24sata.hr#$#specificClicker '.js_toasterTeaser.is_visible a[class*="newsletter"]' '.js_toasterTeaser.is_visible .js_toasterTeaserClose'
+
+becquet.fr#$#specificClicker '#colorbox[class*="newsletter"][style*="block"] #cboxClose'
+
+decalgirl.com#$#specificClicker '#modal-subscribe.in [data-dismiss]'
+
+devpy.me#$#specificClicker '#bio_ep[style*="block"] #bio_ep_close'
+cdkitchen.com#$#specificClicker '#bio_ep[style*="block"] #bio_ep_close'
+
+prospectmagazine.co.uk#$#specificClicker '.signup-popup.popUpBlock[style*="block"] .close'
+
+thewirecutter.com#$#specificClicker 'span[data-gtm-trigger="newsletter_close"]'
+
+iwc.com#$#specificClicker '.iwc-lightbox-open .iwc-newsletter-lightbox' '.iwc-lightbox-close'
+
+meinestadt.de#$#specificClicker '.o-jobadvertNewsletter[style*="block"] .-close'
+
+calvinklein.co.uk#$#specificClicker '.ReactModal__Content--after-open .newsletter--modal ~ .ReactModal__Close'
+
+fr.jobtome.com#$#specificClicker '#popup-container[style*="block"] #popup-close-button[onclick*="Subscribe"]'
+
+360qpon.it#$#specificClicker '.fancybox-opened form[action*="subscription"]' '.fancybox-opened a[onclick*="fancybox.close"]'
+
+leptidigital.fr#$#specificClicker '.yel-popup-main-wrapper[style*="visible"] .yel-email-popup .yel-popup-close img'
+
+topclassactions.com#$#specificClicker '.CampaignType--popup #indianapolis-field-email' '.CampaignType--popup .indianapolis-CloseButton'
+
+zilinak.sk#$#specificClicker '#iq_popup[style*="opacity: 1"] .btn[href*="newsletter"]' '#iq_popup[style*="opacity: 1"] .close-modal'
+
+diconium.com#$#specificClicker '#subscription-popup #ouibounce-modal .in #close'
+
+proversi.it#$#specificClicker '#nl-modal.in #disableNewsletterPopup'
+
+vorsprung-online.de#$#specificClicker '.ifancybox-wrap[style*="block"] .acymailing_module' '.ifancybox-wrap[style*="block"] .ifancybox-close'
+
+ao.de#$#specificClicker '.promotionModal.newCustomerPromo[style*="block"] .welcome ~ .promotionModalClose'
+
+raspberrypistarterkits.com#$#specificClicker '.fancybox-opened div[class*="newsletter"]' '.fancybox-opened .fancybox-close'
+uk.filofax.com#$#specificClicker '.fancybox-opened div[class*="newsletter"]' '.fancybox-opened .fancybox-close'
+
+ninjamarketing.it#$#specificClicker '#newsletterSqueeze[style*="block"] .close-modal'
+
+blog.pandorafms.org#$#specificClicker '.ppsPopupShell[style*="block"] .ppsSubscribeForm' '.ppsPopupShell[style*="block"] .ppsPopupClose'
+
+converse.com#$#specificClicker '.mfp-ready #new-email-addresses-container .mfp-close'
+
+notvorsorge.com#$#specificClicker '.remodal-is-opened a[href*="newsletter"]' '.remodal-is-opened .remodal-close'
+
+leafly.com#$#specificClicker '.newsletter.show .newsletter__close'
+
+arbetsmarknadsnytt.se#$#specificClicker '#twitter-announcement-bg:not([style*="none"]) .closebutton-newsletterpopup'
+
+dollardays.com#$#specificClicker '#modal-nonregoffer.in #close2'
+
+chobani.com#$#specificClicker '#np_email' '//input[@id="np_email"]/ancestor::form/preceding-sibling::button/following-sibling::button$xpath'
+
+findaphd.com#$#specificClicker '#signupModal.modal-signup.in .guest-continue a[onclick*="hideSignup"]'
+
+onbeing.org#$#specificClicker '.js-close-subscribe-modal'
+
+adidas.de#$#specificClicker '.gl-modal--active div[data-auto-id*="signup-form-email"]' '.gl-modal--active .gl-modal__close'
+
+adidas.it#$#specificClicker '.gl-modal--active div[class*="newsletter"]' '.gl-modal--active .gl-modal__close'
+
+moeshome.com#$#specificClicker '.newsletter-popup.open .cancel-fullscreen'
+
+quixel.com#$#specificClicker '#header ~ div[style*="hidden"] ~ div[class*="css"] > form input[name="EMAIL"]' '//input[@name="EMAIL"]/ancestor::form/preceding-sibling::button$xpath'
+
+westonaprice.org#$#specificClicker '.ulp-window[data-title*="Basics"][style*="block"] a[onclick*="ulp_self_close"]'
+
+dewalt.com#$#specificClicker '#SFMC-modalPopUp__overlay[mobilebuttontext*="Mailing List"] .SFMC-modalPopUp__overlay-close'
+
+rosewe.com#$#specificClicker '#subscribing_box .register_close'
+
+livestrong.com#$#specificClicker '.component-popups div[class*="email-capture"] .close-popup'
+
+sierra.com#$#specificClicker '.lightBoxEmailSignup[style*="block"] #lightBoxClose'
+
+microsoft.com#$#specificClicker '#email-newsletter-dialog[aria-hidden="false"] .glyph-cancel'
+
+projectcbd.org#$#specificClicker '.modal[id*="newsletter"][style*="block"] [data-dismiss]'
+infoconcert.com#$#specificClicker '.modal[id*="newsletter"][style*="block"] [data-dismiss]'
+
+cip.nl#$#specificClicker '#newDayModal[style*="block"] .close'
+
+bikester.ch#$#specificClicker '.cyc-dialog--animate .js-newsletterSubscribe' '.cyc-dialog--animate .js-closeDialog'
+
+sitepoint.com#$#specificClicker '#sp-modal[style*="block"] #free-book-form ~ .sp-close-modal'
+
+zutiklik.hr#$#specificClicker '.mfp-ready #newsletter_modal .mfp-close'
+
+amightygirl.com#$#specificClicker '.mfp-ready .newsletter-popup .button.close'
+
+shop.pearlizumi-eu.com#$#specificClicker '#popup_newsletter_content[style*="block"] .popup_small_close_btn'
+
+healthyhandyman.com#$#specificClicker '.tve-leads-conversion-object .tve_ea_thrive_leads_form_close'
+
+diyvideoeditor.com#$#specificClicker '.mfp-ready img[alt="free-editing"]' '.mfp-ready .ig_close'
+
+filson.com#$#specificClicker '.fancybox-opened[class*="newsletter"] .fancybox-close'
+freeairlifeco.com#$#specificClicker '.fancybox-opened[class*="newsletter"] .fancybox-close'
+
+bicyclette-verte.fr#$#specificClicker '#fancybox-wrap[style*="block"] div[id*="newsletter"]' '#fancybox-wrap[style*="block"] #fancybox-close'
+
+billabong.com#$#specificClicker '#colorbox[style*="block"] #email-popup' '#colorbox[style*="block"] #cboxClose'
+
+frozenpalmtree.dk#$#specificClicker '.modal--is-active[id*="newsletter"] .modal__close'
+
+aspergerstestsite.com#$#specificClicker '.tl-states-root .tve-leads-lightbox .tve_p_lb_close'
+francaisauthentique.com#$#specificClicker '.tl-states-root .tve-leads-lightbox .tve_p_lb_close'
+
+shop.moderntoss.com#$#specificClicker '.fancybox-overlay[style*="block"] div[id*="mailchimp"]' '.fancybox-overlay[style*="block"] .fancybox-close'
+
+wallstreetmojo.com#$#specificClicker '.pum-active form[name*="frm_emailer"]' '.pum-active .popmake-close'
+
+bosch-home.com#$#specificClicker '.m-layer.is-active[data-eventtracking*="teaser"] .js-close-button'
+
+advocard.de#$#specificClicker '.lightbox[style*="block"] [class*="newsletter"] .lightbox-close'
+
+focus-arztsuche.de#$#specificClicker '.overlay-modal[style*="block"] > div[class*="newsletter"] > [class*="close"]'
+
+bandsintown.com#$#specificClicker 'img[class*="gdprDialogue"][src*="Close"]'
+
+opticaldiscount.com#$#specificClicker '.modal[style*="block"] #subscribe-newsletter-popup' '.modal[style*="block"] .close'
+
+e-horyzont.pl#$#specificClicker '.modal-popup._show[class*="newsletter"] .action-close'
+
+knowledgecottonapparel.com#$#specificClicker '.popup-modal.open[id*="mailchimp"] .close-modal'
+
+shop.itworld.com#$#specificClicker '.modal[class*="email-capture"][style*="block"] .close'
+
+futo.ca#$#specificClicker '#newsletter-popup[style*="block"] .nl-popup-close span[onclick]'
+
+potterandsons.com#$#specificClicker '.promotion-popup.remodal-is-opened #contact_form' '.promotion-popup.remodal-is-opened .modal__close'
+
+chainreactioncycles.com#$#specificClicker 'body > .new-crc-sign-up-holder > .close-new-crc-sign-up'
+
+statnews.com#$#specificClicker '.stat-modal-base.is-active .mc4wp-form' '.stat-modal-base.is-active #stat-modal-close'
+
+sleepcountry.ca#$#specificClicker '#newsletter-desktop--container.show-form .newsletter-close'
+
+jobsora.com#$#specificClicker '.js-modal-active[style*="block"] #show-subscription-popup' '.js-modal-active[style*="block"] .c-btn[data-dismiss]'
+
+ponudadana.hr#$#specificClicker '#n-popup-o[style*="block"] .close'
+
+lefigaro.fr#$#specificClicker '.mfp-ready .alert-express' '.mfp-ready .mfp-close'
+
+blog.netwrix.com#$#specificClicker '#subscribe-modal.in[style*="block"] .close'
+
+netwrix.com#$#specificClicker '#before-you-go[style*="block"] .close'
+
+barnes-mauritius.com#$#specificClicker '#newsletterModal[style*="block"] .close'
+
+lafourchette.ch#$#specificClicker '#colorbox[style*="block"] .newsletterSignup' '#colorbox[style*="block"] #cboxClose'
+
+atlasobscura.com#$#specificClicker '.js-subscription-ask-modal[id*="email"] .modal-close'
+
+thriftbooks.com#$#specificClicker '.ReactModal__Content--after-open div[class*="EmailSignupModal"] .text-rejectOffer'
+
+surlesquais.com#$#specificClicker '.fancybox-opened div[id*="popupnews"] .closefancybox'
+
+ted.com#$#specificClicker '#megamodal input[type="email"]' '#megamodal > div[role="button"]'
+
+cooleffect.org#$#specificClicker '.ce-modal[aria-label*="Newsletter"][style*="block"] #modal-close'
+
+vinatis.com#$#specificClicker '#modal_abonnement_nl[style*="block"] .close'
+
+timeout.com#$#specificClicker '.newsletter_subscription.news_popup.js_transition_show .icon_close'
+
+binarynights.com#$#specificClicker '#modal-box-nl[style*="block"] #modal-close-nl'
+
+netzwelt.de#$#specificClicker 'body > div[style*="z-index"] #netzwelt_overlay_newsletter_group' 'body > div[style*="z-index"] > div > button'
+
+adsventure.de#$#specificClicker '.cp-overlay.cp-open .smile-optin-form' '.cp-overlay.cp-open .cp-overlay-close'
+
+nike.com#$#specificClicker '.hf-modal-view.is-active #nike-unite-join-view[data-view="emailOnlyJoin"]:not([style*="none"])' '.hf-modal-btn-close'
+
+randomnerdtutorials.com#$#specificClicker '.dialog-widget:not([style*="none"]) .elementor-field-group-email' '.dialog-widget:not([style*="none"]) .dialog-close-button'
+
+westfalia.de#$#specificClicker '.mfp-ready [id*="newsletter"], .mfp-ready [class*="newsletter"]' '.mfp-ready .mfp-close'
+
+iaea.org#$#specificClicker '.modal[class*="newsletter"][style*="block"] [data-dismiss]'
+
+diffordsguide.com#$#specificClicker '#subscribe-modal[style*="block"] .cancel-modal'
+
+insel-sylt.de#$#specificClicker '.lt-modal.opened[data-modal="newsletter"] .close'
+
+samtec.com#$#specificClicker '#firstModal[style*="block"] .close-reveal-modal'
+
+bbcearth.com#$#specificClicker '.remodal.newsletter[style*="visible"] .remodal-close'
+
+pepco.hu#$#specificClicker '.modal-newsletter[style*="block"] .newsletter-close'
+
+springlane.de#$#specificClicker '.fancybox-overlay[style*="block"] #pdf_email_field' '.fancybox-overlay[style*="block"] .fancybox-close'
+
+kitchentime.se#$#specificClicker '.newsletter-popup.show-popup > svg' '.popup-overlay'
+kitchentime.dk#$#specificClicker '.newsletter-popup.show-popup > svg' '.popup-overlay'
+kitchentime.de#$#specificClicker '.newsletter-popup.show-popup > svg' '.popup-overlay'
+kitchentime.fi#$#specificClicker '.newsletter-popup.show-popup > svg' '.popup-overlay'
+kitchentime.no#$#specificClicker '.newsletter-popup.show-popup > svg' '.popup-overlay'
+
+diplon.net#$#specificClicker '.modal-email[style*="block"] .close'
+
+qualipet.ch#$#specificClicker '.bxOverlay.bxOverlayNewsletter[style*="block"] #bxOverlayExitButton'
+
+newchic.com#$#specificClicker '.modal[style*="block"] .quick-register-first-modal-dialog .close'
+
+olimerca.com#$#specificClicker '#modalNewsletter[style*="block"] .close'
+
+hometogo.de#$#specificClicker '.ReactModal__Content--after-open .exit-intent-email' '.ReactModal__Content--after-open .heading-small + div'
+
+habitatswiss.com#$#specificClicker '.modal[style*="block"] form[action*="newsletter"]' '.modal[style*="block"] .close'
+habitat.fr#$#specificClicker '.modal[style*="block"] form[action*="newsletter"]' '.modal[style*="block"] .close'
+
+action.com#$#specificClicker '.is-locked .newsletter-popup .newsletter-popup__close'
+
+legrenier.eu#$#specificClicker '//h1[contains(text(), "Inscription à la newsletter")]/following-sibling::button$xpath'
+
+nieuwsblad.be#$#specificClicker '//div[@open][//h3[contains(text(), "Dit N+ artikel gratis lezen?")]]/div/div/span$xpath'
+
+jobindex.dk#$#specificClicker '#jobmail_popup[style*="block"] .close'
+
+store.knowyourmeme.com#$#specificClicker '.mfp-ready div[id*="mailchimp"] .mfp-close'
+
+bewustnieuwbouw.nl#$#specificClicker '.fancybox-container--ready #newsletter-popup button[data-fancybox-close]'
+
+networkworld.com#$#specificClicker '.fancybox-overlay[style*="block"] .nl-click' '.fancybox-overlay[style*="block"] .fancybox-close'
+
+gatestoneinstitute.org#$#specificClicker '#colorbox[style*="block"] #sub_form' '#colorbox[style*="block"] .promo_close'
+
+pcworld.com#$#specificClicker '.fancybox-opened .nl-click' '.fancybox-opened .fancybox-close'
+
+hacker-gadgets.com#$#specificClicker '.hustle-show .hustle-optin-mask ~ .hustle-popup-content .hustle-button-close'
+
+zazzle.fr#$#specificClicker '.Dialog.EmailInterstitialDialog .Dialog-close'
+
+wlw.de#$#specificClicker '#wlwModal[style*="block"] iframe[src*="showLandingPage"]' '#wlwModal[style*="block"] .close'
+
+altacolinawine.com#$#specificClicker '.pum-active[data-popmake*="email-popup"] .popmake-close'
+
+leafly.com#$#specificClicker '.newsletter.z-modal:not(.hidden) .newsletter__close'
+
+expertiger.de#$#specificClicker '#exit_survey[style*="block"] .content_survey_response_email' '#exit_survey'
+
+bestbuy.com#$#specificClicker '.modal[class*="email-submission"][style*="block"] .close'
+
+lumens.com#$#specificClicker '.ui-dialog[aria-describedby="modemex"]:not([style*="none"]) .ui-dialog-titlebar-close'
+
+bedbathandbeyond.com#$#specificClicker 'div[class^="ModalDialog"][aria-label="Instant Offer"][style*="block"] .rclCloseBtnWrapper'
+
+ruggable.com#$#specificClicker '#emailModal[style*="block"] [aria-label="Close"]'
+morningbrew.com#$#specificClicker '#emailModal[style*="block"] [aria-label="Close"]'
+businesscasual.fm#$#specificClicker '#emailModal[style*="block"] [aria-label="Close"]'
+
+weightwatchers.com#$#specificClicker '#overlay-provider div[class*="email-capture"]' '#overlay-provider button[aria-label="Close"]'
+
+nobo.life#$#specificClicker '#popup_exit.modal[style*="block"] .close'
+
+newsday.com#$#specificClicker '.modal[style*="block"] div[class*="newsletter"] [data-dismiss]'
+boredpanda.com#$#specificClicker '.modal[style*="block"] div[class*="newsletter"] [data-dismiss]'
+
+blochworld.com#$#specificClicker '.featherlight-new-customer[style*="block"] .featherlight-close'
+
+wixsite.com#$#specificClicker '#site-root ~ div[id*="Modal"] iframe[src*="/gs.wixapps"]' '#site-root ~ div[id*="Modal"] > div:first-child'
+
+airofit.com#$#specificClicker '.fancybox-is-open div[class*="newsletter"]' '.fancybox-is-open .close, .fancybox-is-open button[class*="close"]'
+roominabox.de#$#specificClicker '.fancybox-is-open div[class*="newsletter"]' '.fancybox-is-open .close, .fancybox-is-open button[class*="close"]'
+
+moneyvox.fr#$#specificClicker '#sbox-window:not([style*="none"]) iframe[src*="newsletter"]' '#sbox-window:not([style*="none"]) #sbox-btn-close'
+
+mothersmarket.com#$#specificClicker '.promo-email-overlay:not([style*="none"]) .promo-email-close'
+
+hagebau.de#$#specificClicker '.modal[style*="block"] [data-dismiss][data-et-action="NL-Layer"]'
+
+pewpewtactical.com#$#specificClicker '.modal-open #exitPopModal[style*="block"] .ep__close$continue'
+
+iheartlesfic.com#$#specificClicker '.pum-active .mc4wp-form' '.pum-active .popmake-close'
+
+softube.com#$#specificClicker '.modal__mask [class*="newsletter"] .modal__close'
+
+techjunkie.com#$#specificClicker '.modal--download[style*="block"] .modal__close-button'
+
+huonoaiti.fi#$#specificClicker '.pum-active[data-popmake*="newsletter"] .pum-close'
+
+naturafoundation.nl#$#specificClicker '.popup-block--active[data-name*="nieuwsbrief"] .close'
+
+boulezsaal.de#$#specificClicker '.modal[style*="block"] div[class*="subscribe"] .close'
+
+adameve.com#$#specificClicker '#emailLightBox.in .close'
+
+leafly.de#$#specificClicker '.show-popup-overlay .close-news'
+
+oneplus.com#$#specificClicker '.auto-subscribe-tip.show-tip ~ .cmp__subscribe-auto .close-hint'
+
+personalizationmall.com#$#specificClicker '.ui-widget[class*="email-signup"][style*="block"] .ui-dialog-titlebar-close'
+
+hometogo.co.uk#$#specificClicker '.ReactModal__Overlay--after-open .exit-intent-form' '.ReactModal__Overlay--after-open .f-gray-extra-dark'
+
+toolots.com#$#specificClicker '.fancybox-opened #emailForm' '.fancybox-opened .fancybox-close'
+
+worldcrunch.com#$#specificClicker '.modal[class*="newsletter"][style*="block"] .close'
+
+foreignaffairs.com#$#specificClicker '.newsletter-backdrop.active .newsletter-modal-close'
+
+fosspost.org#$#specificClicker '.mfp-ready .ig_air-mail .ig_close'
+
+hardwarelocker.com#$#specificClicker '#halo-newsletter-popup.animated .mfp-close'
+
+nytimes.com#$#specificClicker '#main ~ div[style*="block"] [data-gtm-trigger="newsletter_close"]'
+
+store.vespa.com#$#specificClicker '.overlay-nl .close[onclick*="closeNl"]'
+
+cookingideas.es#$#specificClicker '.c-overlay[style*="block"] .mailster-form' '.c-overlay[style*="block"] .c-overlay__close'
+
+rebelwisdom.co.uk#$#specificClicker '#mailchimp.uk-open .uk-close'
+
+freenas.org#$#specificClicker '.entry-content .et_pb_section_0 a[href="/download-freenas-release/"]'
+
+lowes.ca#$#specificClicker '.modal-sign-up[style*="block"] .close'
+
+suppreviewers.com#$#specificClicker '#simplemodal-container .tnp-modal' '#simplemodal-container .simplemodal-close'
+
+toppreise.ch#$#specificClicker '.dialog-open[class*="InfoMailForm"] .AbstractDialog_CloseButton'
+
+okeyravi.com#$#specificClicker '.elementor-popup-modal iframe[src*="sibforms.com"]' '.elementor-popup-modal .dialog-close-button'
+
+lotto.it#$#specificClicker '#popup-newsletter[style=""] .action-close'
+
+ao.de#$#specificClicker '.newsletterPromo .c-modal--open .c-modal-close'
+
+fabbaloo.com#$#specificClicker '//div[contains(@class, "elementor-popup-modal")][//h3[contains(text(), "mailing")]]//div[contains(@class, "close-button")]$xpath'
+
+eadt.co.uk#$#specificClicker '.modalMarketing[style*="block"] .close'
+
+hijobs.net#$#specificClicker '.mfp-ready #modal-alert-signup .mfp-close'
+
+technologyreview.com#$#specificClicker '.fancybox-opened #mc_embed_signup' '.fancybox-opened .fancybox-close'
+connectedgoods.com#$#specificClicker '.fancybox-opened #mc_embed_signup' '.fancybox-opened .fancybox-close'
+
+trafalgar.com#$#specificClicker '.modal-is-open[id*="newsletter"] .modal-dismiss'
+
+bestbuy.com#$#specificClicker '.c-modal-window.active[class*="email-submission"] .c-close-icon'
+
+erwinmueller.com#$#specificClicker '.modal[style*="block"] input[value*="Newsletter"]' '.modal[style*="block"] .close'
+
+iot-now.com#$#specificClicker '#reg-for-newsletter[style=""] #close-reg-box'
+
+mackage.com#$#specificClicker '.ui-widget[class*="newsletter"][style*="block"] .ui-dialog-titlebar-close'
+
+protocol.com#$#specificClicker '#form_out[style*="block"] .nottoday'
+
+onabags.eu#$#specificClicker '.modal[style*="block"] .close'
+
+thehumansolution.com#$#specificClicker '#modal-user-exit[style*="block"] .modal-close'
+
+drydrinker.com#$#specificClicker '.modal.show-modal input[value="Subscribe"]' '.modal.show-modal .close-button'
+
+comment-economiser.fr#$#specificClicker '#simplemodal-container[style*="block"] #modal_already_subscriber a'
+
+katsbotanicals.com#$#specificClicker '.conv_active.conv_type_popup input[name="email"]' '.conv_active.conv_type_popup .conv-closer'
+
+zentrum-der-gesundheit.de#$#specificClicker '.zdg_news_popup .close-btn-icon'
+
+yachtworld.co.uk#$#specificClicker '.pop-up[style*="block"] #popupEmail' '.pop-up[style*="block"] .close-button'
+
+yachtworld.com#$#specificClicker '.pop-up[style*="block"] #popupEmail' '.pop-up[style*="block"] .close-button'
+
+bfa.com#$#specificClicker '.mailinglist-modal__close'
+
+espa.com#$#specificClicker '.reveal[id*="newsletter"][style*="block"] .close-button'
+
+alexmor.ru#$#specificClicker '.fancybox-is-open .b-subscribe + button'
+
+numero.com#$#specificClicker '.popin-active .component-popin[class*="newsletter"] .component-popin__close'
+
+optima.hr#$#specificClicker '#newsletter_popup[style*="block"] [class*="close"]'
+
+brooktaverner.co.uk#$#specificClicker '#browser-abandonment-modal[style*="block"] .close-modal'
+
+ffr.fr#$#specificClicker '.modal.visible .newsletter-input .js-closeModal'
+
+e-fundresearch.com#$#specificClicker '.modal-mask button[aria-label*="Nein"][aria-label*="Laufenden bleiben"]'
+
+baby.nivea.pl#$#specificClicker '.newsletter-popup[style*="block"] .fancybox-close-small'
+
+promondo.de#$#specificClicker '.modal[style*="block"] [class*="newsletter"] .close'
+
+camtasia-training.de#$#specificClicker '.modal[style*="block"] form[action*="cleverreach"]' '.modal[style*="block"] .closecustompupup'
+
+tutorials-raspberrypi.de#$#specificClicker '.spu-box[style*="block"] #subscribe-email' '.spu-box[style*="block"] .spu-close'
+
+musier-paris.com#$#specificClicker '.fancybox-is-open #mc_embed_signup' '.fancybox-is-open [class*="fancybox-close"]'
+
+eclj.org#$#specificClicker '.fancybox-is-open #connect-close-button'
+
+wienenergie.at#$#specificClicker '.__reakit-portal [class*="NewsletterToast"] button'
+
+monalbumphoto.fr#$#specificClicker '.newsletter-popup-modal.--opened .arc3-modal__close'
+
+comparis.ch#$#specificClicker '#priceAlarmEmailModal[style*="block"] [data-dismiss]'
+
+pbs.org#$#specificClicker '.newsletter-modal.active #dismiss'
+
+gearjunkie.com#$#specificClicker '#pu-wrapper[style*="block"] .enews-wrapper .email-close'
+
+netrauta.fi#$#specificClicker '.featherlight[style*="block"] .email-collector' '.featherlight[style*="block"] .featherlight-close'
+
+leevalley.com#$#specificClicker '.newsletter-signup-modal[class*="show"] .close'
+
+potbelly.com#$#specificClicker '#fishbowl-email-modal ~ form .dismiss'
+
+interintellect.com#$#specificClicker '#POPUPS_ROOT input[name="email"][placeholder="Email"]' '#POPUPS_ROOT div[data-testid="popupCloseIconButtonRoot"]'
+
+camelliabrand.com#$#specificClicker '#fancybox-wrap[style*="block"] div[class*="email-subscribe"]' '#fancybox-wrap[style*="block"] #fancybox-close'
+
+calvinklein.de#$#specificClicker '.ck-modal[class*="newsletter"] .ck-modal__close-btn'
+
+melscience.com#$#specificClicker '.modal:not([class*="hidden"]) .subscribe-modal .modal__close-button'
+
+88nightmarket.com#$#specificClicker '#shopify-section-modal-welcome:not([style*="none"]) #NWLCYL' '#shopify-section-modal-welcome .modal-close'
+
+endoca.com#$#specificClicker 'footer ~ .newsletter-popup.open'
+
+shelly.cloud#$#specificClicker '.popup-open .popup-wrapper[data-options*="doNotShowAgain"] .popup-bg-closable'
+
+stepstone.de#$#specificClicker '.modal[style*="block"][data-trigger-ja-utag*="JobAgent"] .close'
+
+ecycle.com.br#$#specificClicker '.mfp-ready #modalNewsletter ~ .mfp-close'
+
+bricomarche.pt#$#specificClicker '.modal[style*="block"] .checkboxmail' '.modal[style*="block"] .exit'
+
+producthunt.com#$#specificClicker '#root-portal div[data-test="dismiss-EmailSubscribeCard"] > span'
+
+bloomberg.com#$#specificClicker '#newsletter-modal button[class*="Close"]'
+
+zwiftinsider.com#$#specificClicker '.pps-popup[style*="block"] iframe[src*="mailjet"]' '.pps-popup[style*="block"] .pps-close-link'
+
+anthropologie.com#$#specificClicker '.o-pwa-modal-overlay .c-pwa-email-signup ~ .o-pwa-modal__close'
+urbanoutfitters.com#$#specificClicker '.o-pwa-modal-overlay .c-pwa-email-signup ~ .o-pwa-modal__close'
+
+yestersen.com#$#specificClicker '.modal__container[style*="block"] img[src*="newsletter"]' '.modal__container[style*="block"] [class*="close-button"] button'
+
+birdguides.com#$#specificClicker '.modal[style*="block"] img[src*="newsletter"]' '.modal[style*="block"] [data-dismiss]'
+
+legitim.ch#$#specificClicker '#POPUPS_ROOT [data-testid*="mesh"] > [role="button"]'
+
+thebump.com#$#specificClicker '.ReactModal__Overlay--after-open div[style*="registration"] img[src*="close"]'
+
+stackify.com#$#specificClicker '//div[contains(@class, "elementor-popup-modal")][//p[contains(text(), "newsletter")]]//div[contains(@class, "close-button")]$xpath'
+
+childrenshealthdefense.org#$#specificClicker '.pum-active[data-popmake*="sign-up"] .pum-close'
+
+returnofrock.com#$#specificClicker '.pum-active[data-popmake*="email-opt"] .popmake-close'
+
+revolver.news#$#specificClicker '.signup-modal[style*="block"] a[rel*="close"]'
+
+gainesvillecoins.com#$#specificClicker '.show[class*="newsletter"] .closeModal'
+
+cappelendamm.no#$#specificClicker '.modal.in .EmailComponent' '.modal.in .close'
+
+innersensebeauty.com#$#specificClicker '.pum-active[data-popmake*="email-form"] .popmake-close'
+
+huffpost.com#$#specificClicker '.no-scroll.newsletter-modal .modal--newsletter-modal .modal__close'
+
+salomon.com.au#$#specificClicker '.od-modal[style*="block"] div[id*="newsletter"]' '.od-modal[style*="block"] .od-modal-close'
+
+companyhouse.de#$#specificClicker '.modal[style*="block"] #monitoring-modal .close'
+
+notthebee.com#$#specificClicker '.fixed > [aria-modal="true"] a[href*="join"]' '.fixed > [aria-modal="true"] > .cursor-pointer'
+
+thenextcloset.com#$#specificClicker '.ReactModal__Content--after-open div[class*="Newsletter"] img[alt*="close"]'
+
+fctables.com#$#specificClicker '.modal[id*="mailing"][style*="block"] [data-dismiss]'
+
+themuse.com#$#specificClicker '.mfe-newsletter-modal > button'
+
+burton.fr#$#specificClicker '.lightbox.actif #formu_inscription_news' '.lightbox.actif .close'
+
+wetalent.nl#$#specificClicker '.modal[style*="block"] .newsletter' '.modal[style*="block"]'
+
+childmind.org#$#specificClicker '.pum-active[data-popmake*="email-acquisition"] .popmake-close'
+
+peteandgerrys.com#$#specificClicker '#modal-popup[style*="block"] #mc_embed_signup' '#modal-popup[style*="block"] .modal-close'
+
+portugalist.com#$#specificClicker '#sgpb-popup-dialog-main-div-wrapper input[value="Subscribe"]' 'img[class*="sgpb-popup-close-button"]'
+
+indeed.com#$#specificClicker '.jobalert-popover[style*="block"] #popover-x'
+
+initiativbewerbungen.com#$#specificClicker '#popup_when_mouseout_wrap:not([style*="none"]) #subscript_form_wrap .close_button'
+
+hultafors.no#$#specificClicker '#root > [class*="Dialog"] iframe[src*="email"]' '#root > [class*="Dialog"] button'
+
+compose.ly#$#specificClicker '.fancybox-is-open .newsletterform' '.fancybox-is-open button[class*="close"]'
+
+statista.com#$#specificClicker '#newsletterPopupOverlay[aria-hidden="false"] .vueModal__close'
+
+rab.equipment#$#specificClicker '.c-popup.popped [id*="newsletter"]' '.c-popup.popped .c-popup__close'
+
+rei.com#$#specificClicker '.modal[id*="emailAcq"][style*="block"] [data-dismiss]'
+
+jooble.org#$#specificClicker '.root_modal div[data-test-name="_crazyPopUpNoButton"]'
+
+hema.nl#$#specificClicker '.emailoptin-modal[style*="block"] .close-modal'
+
+lotuscars.com#$#specificClicker '.reveal[id*="newsletter"][style*="block"] a[data-close]'
+
+g-star.com#$#specificClicker '#dialog-membership-subscribe-dialog .js-closeDialog'
+
+mycareersfuture.gov.sg#$#specificClicker '#modal-subscription[style*="block"] .close'
+
+gunsamerica.com#$#specificClicker '.pum-active[data-popmake*="ga-subscribe"] .pum-close'
+
+toysrus.ca#$#specificClicker '.modal.is-active[id*="newsletter"] .modal-dialog-close'
+
+kudyznudy.cz#$#specificClicker '.fancybox-wrap[style*="block"] iframe[src*="newsletter"]' '.fancybox-wrap[style*="block"] .fancybox-close'
+
+flightspots.co#$#specificClicker '#popup' '//div[@id="popup"][//div[@class="content"][text()="Email address"]]//div[contains(@class, "clickable")]$xpath'
+
+freshlycosmetics.com#$#specificClicker '.modal[style*="block"] div[class*="newsletter"]' '.modal[style*="block"] .close'
+
+potterybarn.com#$#specificClicker '.modal-open .sticky-join-email-minimize a, .emailCampaignOverlay .overlayCloseX'
+
+explodingkittens.com#$#specificClicker '.modal--show[class*="newsletter"] .modal__dismiss'
+
+onequince.com#$#specificClicker 'button[class*="WelcomeModal__CloseButton"]'
+
+dailypaws.com#$#specificClicker '//div[contains(@class, "bx-base")][//div[contains(text(), "Enter your email")]]//button[@data-click="close"]$continue,xpath'
+
+trail-gear.com#$#specificClicker '.newspopup_ov_hidden .newspopup-up-form .close'
+
+betzold.de#$#specificClicker '.teaser-layer--dim .info-layer-close'
+
+westelm.com#$#specificClicker '#join-email-campaign .shader:not([style*="none"]) .no-thanks, .stickyOverlayScroll[style*="opacity: 1"] .emailCampaignStickyOverlay .stickyOverlayCloseButton'
+
+potterybarnkids.com#$#specificClicker '.overlayScroll[style*="opacity: 1"] .emailCampaignOverlay .overlayCloseButton'
+
+milwaukeetool.com#$#specificClicker '#leadGenPopUpForm:not(.hidden) .icon-close-modal'
+
+apnews.com#$#specificClicker '#sailthru-overlay-container #sailthru-user-acquisition-email' '#sailthru-overlay-container .sailthru-overlay-close'
+
+kontext.tech#$#specificClicker '.modal[data-toggle="cookiemodal"][style*="block"] .btn-close'
+
+reallygoodemails.com#$#specificClicker '//form[./h2[starts-with(text(), "Sorry for being an")]]//following-sibling::button$xpath'
+
+usa.tommy.com#$#specificClicker '.pvhOverlay div[id*="newsletter"]' '.pvhOverlayCloseX'
+
+iebschool.com#$#specificClicker '.modal[style*="block"] div[id*="subscribe_by_email"]' '.modal[style*="block"] .btn-close'
+
+womenlovetech.com#$#specificClicker '.modal[style*="block"] .wpsf-subscription-form' '.modal[style*="block"] .close'
+
+pianistmagazine.com#$#specificClicker '.modal[style*="block"]' '//div[contains(@class, "modal")][contains(@style, "block")][//h4[text()="FREE Email Alerts"]]//a[@data-dismiss]$xpath'
+
+manoloblahnik.com#$#specificClicker '.enhanced-nl-modal._show .action-close'
+
+time.com#$#specificClicker '.modal.is-visible[class*="newsletter"] #modal-close'
+
+streisand-dion.shareably.net#$#specificClicker '#email-modal-container:not(.hidden) #email-modal-close-button'
+
+truenas.com#$#specificClicker '.ixhs-hide-download:not([style*="non"]) .ix-skip'
+
+llbean.com#$#specificClicker '.subscribe-modal[style*="block"] .ui-dialog-titlebar-close'
+
+3suisses.fr#$#specificClicker '.modal.is-open input[name="newsletter_email"]' '.modal.is-open .modal__close'
+
+socmedsean.com#$#specificClicker '.pum-active[data-popmake*="email-subscribe"] .popmake-close'
+
+brighteon.com#$#specificClicker '#modal-root .popup-subscription' '#modal-root .overlay__close'

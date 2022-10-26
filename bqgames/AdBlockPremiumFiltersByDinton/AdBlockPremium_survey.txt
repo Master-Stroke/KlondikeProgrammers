@@ -1,0 +1,339 @@
+[Adblock Plus 2.0]
+! Version: 202201231733
+! Title: DistractionControl-Survey
+! Last modified: 23 Jan 2022 17:33 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://help.getadblock.com/support/home
+! 
+! -----------------------General blocking filters-----------------------!
+! *** distraction-control:survey/blocking_general.txt ***
+! 
+! general blocking rules
+! 
+
+nebula-cdn.kampyle.com
+
+||turbo.qualaroo.com/c.js$script
+
+||scripts.psyma.com/layer_question$script
+
+w.usabilla.com
+
+||static.hotjar.com/c/hotjar$script
+
+||scripts.psyma.com/html/layer/json_question.php$script
+
+||visualwebsiteoptimizer.com/va_survey$script
+
+gateway.answerscloud.com
+
+st.getsitecontrol.com
+
+||survey.g.doubleclick.net/survey$script
+
+/opiniac.js
+
+||ssl.ceneo.pl/shops/$script
+
+||cloud.netquest.sk/scripts/widget$script
+
+||storage.googleapis.com/outfox/ocs/surveys/$script
+
+||kameleoon.eu/kameleoon.js$script
+
+||invitation.opinionbar.com/wit/popups$script
+
+||neads.delivery/opinion-seed-embed.js$script
+
+||collect.mopinion.com/assets/surveys/$script
+
+/runtimejs/dist/survey/js/survey.js
+
+||surveygizmobeacon.s3.amazonaws.com/beaconconfigs/$script
+
+||cpx.smind.hr/Log/LogData$script
+
+||widget.surveymonkey.com/collect$script,domain=~onboarding.italki.com
+
+||cdn.feedbackify.com/f.js$script
+
+||invitation.opinionbar.com/popups$script
+
+/bundles/Scripts/OpinionLab.js
+
+||survey.nuggad.net/c/layer-html$script
+
+||ips-invite.iperceptions.com/invitations$script
+
+/oo_engine.min.js
+
+||userzoom.com/feedback$script
+
+||invite.leanlab.co/invite/invite.js$script
+
+||userreport.com/newsquest/launcher.js$script
+
+siteintercept.qualtrics.com
+
+||sandsiv.com/digi_runner.js?surveyId$script
+
+||digitalfeedback.euro.confirmit.com/api$script
+
+||taskanalytics.com/tm.js$script
+
+popup.designtutkimus.fi
+
+||guitaretab.com/static/js/hats$script
+
+/v1/survey_invite.min.js
+
+||app.alpheid.com/js/marketing_automation$script
+
+||siteimproveanalytics.com/js/siteanalyze$script
+
+||cdn.judge.me/shopify_v2.js$script
+
+||static.yourcx.io/customers$script
+
+||webankieta.pl/scripts/widget$script
+
+popin.survey-xact.dk
+
+||myaudience.de/sv/rifflejs.php$script
+
+||survey.survicate.com/workspaces$script
+
+||tryinteract.com/promotions/init.js$script
+
+||scripts.psyma.com/scripts$script
+
+||surveygizmo.eu/runtimejs/intercept$script
+
+widgets.opinary.com
+
+||uxfeedback.ru/widget.js$script
+! -----------------------Specific blocking filters-----------------------!
+! *** distraction-control:survey/blocking_specific.txt ***
+! 
+! site specific blocking rules
+! 
+
+/vendor/opinionlab/*$domain=lenovo.com
+
+survey.js$domain=medier24.no
+
+/components-nps-survey$domain=spanishdict.com
+
+ExitIntentModal.js$domain=stepstone.de
+
+/surveys/*$domain=europa.eu
+! ------------------------General element hiding rules-------------------------!
+! *** distraction-control:survey/hiding_general.txt ***
+! 
+! general hiding rules
+! 
+
+##.vp-VisitorPulse
+
+###zm_survey-prompt
+
+##.boxzilla-container
+
+##.feedbackButton[href*="surveymonkey"]
+
+##.feedbacksurvey-frameContainer
+
+##ytd-single-option-survey-renderer
+##ytd-checkbox-survey-renderer
+
+###qual_ol.qual_x_reset
+
+##body > #edr_survey
+
+##iframe[src*=".xplosion.de"]
+
+###b-exit-survey.b-exit-survey
+
+###user-satisfaction-survey-container
+
+##.tlid-survey.survey-container
+
+###question-frame.signup-quiz[style*="block"]
+
+##body > .poll-notification.poll-notification--active
+
+##.survey.show[aria-labelledby*="invitation"]
+
+##.sg-b-p.sg-b-p-s[aria-label*="survey"]
+##.sg-b-p.sg-b-p-s[aria-label*="survey"] ~ .sg-b-p-m
+
+##body > .btn[class*="feedback"][data-target*="survey"]
+
+##body > #openFeedbackContainer
+
+##body > .avalie-fixed.avalie-fixed--opened
+
+###ocs-inflow-comp button#i-srvy
+
+##.pane-snippet.cd-survey .open-button
+
+##body > #feedbackButton
+
+###container #container-avis > #btn-toggle-avis
+
+###customer_satisfaction_survey div[class*="survey_popup"]
+
+##.feedbackify-tab.desktop
+
+##.feedback-wrap > feedback > #feedback
+
+##.js-show-feedback-popup
+
+###the-nag-footer.the-nag-footer--user-survey
+
+##.survey.is-not-started.js-survey
+
+##body > .suggest-trigger[data-toggle="modal"]
+
+##.FullWidthAnnouncementTopBar--survey
+
+##body > div[id*="surveyButtons"] > button[class*="feedback"]
+
+###someone-purchased[style*="block"]
+
+###dfp-pulse.js-pulse.filled
+
+###nps-container.surveymonkey-popup
+
+##.AnnouncementTopBar--survey
+
+###survey-feedback-to-left
+
+###page-container ~ .review-pop-out
+
+##.supStickyFeedback
+###obf-ToastContainer
+
+##.fixed-footer .feedback.feedback--sticky
+! ------------------------Specific element hiding rules-------------------------!
+! *** distraction-control:survey/hiding_specific.txt ***
+! 
+! site specific hiding rules
+! 
+
+top2000.nl##.footer.vote-submit-container
+
+aceaccidentrepairswansea.co.uk###dmPopup
+aceaccidentrepairswansea.co.uk###dmPopupMask
+
+nytimes.com##div[data-testid="feedback"]
+
+skype.com##.surveySection
+
+dunea.nl##.c-sticky-button
+
+microsoft.com##.survey-background
+microsoft.com##survey-invitation
+
+lcsc.com##.el-notification
+
+dhl.de##.cq-dd-paragraph:not(.faqcontainer)
+
+lg.com##.new-banner.web
+lg.com##.new-quick-menu.active
+
+vultr.com###survey-container
+
+buoyant.io###ki-_n
+
+developers.facebook.com###devsite_dock
+
+bookmetrix.com##.p-header.p-header--highlight
+
+mozilla.org###developer_needs[data-banner]
+
+verspieren.com##.sticky-typeform.active
+
+swinton.co.uk##.feedback.show
+
+ventilation-system.com##.questions
+ventilation-system.com##.interview
+
+nzz.ch##.messagebox.stickybar.stickybar--bottom
+
+nationwide.co.uk###popupPanel[aria-labelledby="ce_hdr"]
+
+facebook.com###pagelet_megaphone
+
+handelsblatt.com##.vhb-registerlayer
+
+google.com###hats2-iframe
+google.com###google-hats-survey
+
+stbpdigital.de##.content > div[style*="visible"]
+
+alternativeto.net###bottomNotifier
+
+truebill.com##.Bounce
+
+intel.de###onSiteonRTag
+
+gehalt.de###gehaltsCheckModal
+gehalt.de##.shader
+
+numbeo.com##.ui-dialog[aria-describedby="modal_after_a_delay"]
+
+gehaltsreporter.de##.exit-intent-popup
+
+stuttgarter-zeitung.de###snippet[data-cmsid*="pricing"]
+
+o2online.de##.qa-topic-helpfulness
+! ---------------------------Snippets---------------------------!
+! *** distraction-control:survey/snippet.txt ***
+! 
+! site specific snippet rules
+! 
+
+motor-talk.de#$#specificClicker '#nps-popup[style*="block"] #nps-popup-close'
+
+wlw.de#$#specificClicker '.fn-survey.in .close'
+
+agroneo.com#$#specificClicker '#qrbox[style*="fixed"] .close'
+
+paypal-community.com#$#specificClicker '.ui-widget-content[style*="block"] .lia-quilt-survey-prompt-dialog .decline-survey-link'
+
+auto.ria.com#$#specificClicker '.modal-scrollable.in .button[href*="surveymonkey"]' '.modal-scrollable.in .close'
+
+auto.ria.com#$#specificClicker '#modalAdv.modal-window--adv .button[href*="surveymonkey"]' '#modalAdv.modal-window--adv .modal-window-close'
+
+autoline.info#$#specificClicker '.ui-dialog.rejection-reason-popup[style*="block"] .ui-dialog-titlebar-close'
+
+make-it-in-germany.it#$#specificClicker '#popup:not([style*="none"]) #popup_close_now'
+
+gamespot.com#$#specificClicker '#contrib_rec .rec_hide'
+
+neilpatel.com#$#specificClicker '.mfp-ready #popup-exit-quiz .mfp-close'
+
+facebook.com#$#specificClicker 'div[role="dialog"] form[action*="rapidfeedback"] a[data-testid*="close"]'
+
+avatao.com#$#specificClicker 'tao-assessment-modal .modal[style*="block"] .tao-modal-action-btns .btn'
+
+bosch-home.co.uk#$#specificClicker '.m-layer.is-active img[src*="Survey"]' '.m-layer.is-active .js-close-button'
+
+netcomposites.com#$#specificClicker '#questionModal[style*="block"] [data-dismiss]'
+
+falk.de#$#specificClicker '.cdk-overlay-container survey-box-dialog .md-button[aria-label="No Feedback"]'
+
+canon.de#$#specificClicker '#SurveyPopupView[style*="block"] .SurveyPopupViewClose'
+
+vodafone.de#$#specificClicker '.modalWrapper .teaserIntroduce .overlay-close'
+
+neilpatel.com#$#specificClicker '.page-quiz .btn-close'
+
+smallpdf.com#$#specificClicker '//img[@alt="survey illustration"]/parent::node()/parent::node()/preceding-sibling::node()$xpath'
+
+maneaddicts.com#$#specificClicker '.mfp-ready #ttqbutton' '.mfp-ready .ig_close'
+
+steuerklassen.com#$#specificClicker '#exampleModal[style*="block"] .close$continue'
+
+xing.com#$#specificClicker '.slideFade-enter-done div[class*="user_intent_survey"] + button'

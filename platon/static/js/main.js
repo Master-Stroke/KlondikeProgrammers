@@ -1,0 +1,1 @@
+$('#type').typed({strings:["","Master Stroke","Front-End Developer, Telegram and Discord bots Developer","Python, SQL, HTML, CSS, JS, PHP","Klondike Programmers", "Provision of various services"],typeSpeed:60,loop:true,})

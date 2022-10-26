@@ -1,0 +1,329 @@
+[Adblock Plus 2.0]
+! Version: 202201231733
+! Title: DistractionControl-Video
+! Last modified: 23 Jan 2022 17:33 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://help.getadblock.com/support/home
+! 
+! -----------------------General blocking filters-----------------------!
+! *** distraction-control:video/blocking_general.txt ***
+! 
+! general blocking rules
+! 
+
+||apps.veedio.it/js/videobox$script
+
+/responsive-player/video-feature-sticky.js
+
+||s-pt.ppstatic.pl/p/js/regionalne/plywajace_wideo.js$script
+
+/js/compiled/atoms/article/sticky-video.js
+
+||sdk.digitalbees.it/jssdk.js$script
+
+||live.sekindo.com/live/liveView.php$script
+
+||c.jsrdn.com/s/cs.js$script
+
+||playwire.com/plugins/docky.min.js$script
+
+||cdn.connatix.com/min/connatix.renderer.infeed.min.js$script
+
+||ultimedia.com/api/widget/smart$script
+
+||stream.playbuzz.com/embed/sdk.js$script
+
+||delivery.youplay.se/load.js$script
+
+embed.sendtonews.com
+
+/wp-content/plugins/pmc-plugins/pmc-adm/*
+
+||player.glomex.com/integration/1/sticky-component$script
+
+||services.brid.tv/player$script
+
+||mgid.com/js/wglibs/mgWidget$script
+! -----------------------Specific blocking filters-----------------------!
+! *** distraction-control:video/blocking_specific.txt ***
+! 
+! site specific blocking rules
+! 
+
+/mol-adverts-delayed.js$domain=dailymail.co.uk
+
+/twocol_article_autoplay/*$domain=belfasttelegraph.co.uk
+
+/instream.js$domain=fandom.com
+
+players.brightcove.net$domain=uproxx.com
+
+/coronaWidget5/*$domain=ibtimes.sg
+
+! ------------------------General element hiding rules-------------------------!
+! *** distraction-control:video/hiding_general.txt ***
+! 
+! general hiding rules
+! 
+
+###block-dm-live-dm-live-sidebar-player.sticky-player
+
+###product-video-container.popOut
+
+##.video[itemprop="video"] .video-container[class*="position"]
+
+##.video-player.js-video-player.css-js-sticky .wide-proportion-wrapper
+
+##.kiwys-0001-outstream .kiwys-container
+
+###videoContainer.flowplayer.sticky_vid
+
+##.videoplayer.videoplayer--below-fold
+
+##.jwplayer__container.is-sticky
+
+##.cnx-video-container.cnx-float
+
+##.jwplayer.jw-flag-small-player > .jw-reset
+
+##.jw-flag-small-player .jwplayer-minimize__bottom
+
+##.jw-player-minimize .jw-flag-small-player[style*="300"]
+
+##.video-js[data-test-id*="docked"]
+
+##.videoicerik #videocontent .stickyvideo
+
+##.dailymotion-cpe.player_div .insider.pip
+
+##.mod-video.float-and-park[data-mod="video"]
+
+##.b-video-box__player.js-video-box__player._is-sticked .b-video-box__float-container
+
+###video-canvas > .jw-floating-dismissible.player-minimize
+###video-canvas > .jw-floating-dismissible.player-minimize ~ .sticky-description
+
+##.insider.pip > iframe[title*="video"]
+##.insider.pip > iframe[title*="video"] + .cpeClosePipBtn
+
+##.videoPlayer.stuck.stuck--top.stuck-on
+
+##.component-tv.-invisible .component-tv__video.video-ratio.-visible[style*="fixed"]
+
+##.ui-video-wrapper.playerIsScrolling .js-ui-video-init.ui-pluto-video
+
+###videoContainer.video-container-inline.pinned-player
+
+##.kaltura_player.player-fixed
+
+##.powa-sticky-stuck.powa-sticky
+
+##.player-container.player-minimize
+
+###featured-video.featured-video--fixed
+
+##.sticky-section.player-minimize[class*="PlayerWrapper"]
+
+##.vdb_player .o2-in-side-view
+
+##.video-flyout.video-flyout--fixed .video-lead
+
+##.nuvi-player .floating.corner.floatable
+
+##.ac-player-wrapper.ac-floated-player
+
+###player_rcs.player.sticky-video
+
+##.component.has-started.sticky_vid
+
+##.fexy-video-widget.floating
+
+##.monti-placeholder-mm-player > div[style*="fixed"]
+
+##.m-em-video--pip
+
+###vi-stories-main-container.vi-stories-floating
+
+##.dailymotion-player-wrapper[style*="fixed"]
+
+##.video_wrapper > .theo-pip > .theo-player-wrapper
+
+##.jumpstart-video .jumpstart-player-sticky
+
+##.hst-exco-player[data-pbs-position="sticky"]
+
+apnews.com##.cnx-playspace-container.cnx-float
+
+##.b-docking.is-docked[class*="video"] > div
+
+###sticker[style*="fixed"] > .gtm-Video-close
+###sticker[style*="fixed"] > .gtm-Video-close ~ .embed-responsive
+
+###video-player-div .video-player-wrapper.sticky
+
+##.jwplayer.jw-flag-floating > .jw-reset
+
+##.video-player .cvp-outer.stuck
+
+###aniBox .av-floating
+
+##.video-player-container .shortcode-video.player-minimize
+
+###tyche_trendi_video_container.is-docked
+
+###stnvidplyr .s2nFloatBox[style*="fixed"]
+! ------------------------Specific element hiding rules-------------------------!
+! *** distraction-control:video/hiding_specific.txt ***
+! 
+! site specific hiding rules
+! 
+
+oe24.at##.oe24tvTopVideoLayer.tvLayerStart
+
+cnn.com##.media__video--responsive .inbetweener-unpinner[style*="left"] ~ div[style*="left"]
+
+ksdk.com##.article-story .video__inner[style*="fixed"]
+
+corriere.it##.sticky-video
+
+express.co.uk##.ns-player-stuck
+
+arstechnica.com##.ad_xrail_top
+
+fastcompany.com##.sticky-outer-wrapper.active
+
+lemonde.fr###dm-container
+
+viva.pl##.ediplayer-ui-floating {visibility:hidden}
+
+dagbladet.no##.embed-player-minimized
+
+goodmorningliberty.us##div[id^="PinnedLayer"]
+
+blick.ch###blick-tv-pop-out
+
+recordnet.com##article > aside[aria-label*="Video"]
+
+yahoo.com##.player.vp-docked-mode .vp-docked
+
+chip.de##.x-dl8-loaded > div > [style*="fixed"] iframe
+chip.de##.x-dl8-loaded > div > [style*="fixed"] button
+chip.de###video-widget div[style*="fixed"] div
+
+freep.com##aside[aria-label*="Video"]
+
+lefigaro.fr###flive-loop .sticky
+
+lci.fr##.iframe_player[style*="fixed"]
+
+blogto.com###firework-carousel-post
+! ---------------------------Snippets---------------------------!
+! *** distraction-control:video/snippet.txt ***
+! 
+! site specific snippet rules
+! 
+
+digitaltrends.com#$#specificClicker '.m-sticky-video.is-stuck .m-sticky-video--close'
+
+cbssports.com#$#specificClicker '.video-northstar-bug-container.unseen #video-northstar-bug-close'
+
+telesambre.be#$#specificClicker '#direct-block .close'
+
+puls4.com#$#specificClicker '.player-wrapper[style*="fixed"] .icon-close'
+
+cnet.com#$#specificClicker '.dock.entered .videoPlayer[style*="visible"] .closeButton'
+
+newsweek.com#$#specificClicker '.videocontent-wrapper.stickyPlayer #close_fusion_jwplayer'
+
+inc.com#$#specificClicker '.bigWrapper div[class*="closeMustWatch"]'
+
+tvguide.com#$#specificClicker '.article-asset-video-container.article-asset-video-popover-container .article-asset-video-close-icon'
+
+download.cnet.com#$#specificClicker '#product-video-container.popOut .toggleDown'
+
+techradar.com#$#specificClicker '.sticky-player-background[style*="visible"] .sticky-close'
+
+foxnews.com#$#specificClicker '.article-wrap.has-video .sticky-video .close'
+
+independent.co.uk#$#specificClicker '.sticky:not(.closed) .video-popout-close'
+standard.co.uk#$#specificClicker '.sticky:not(.closed) .video-popout-close'
+
+stamfordadvocate.com#$#specificClicker '.monti-player-wrapper[class*="breakpoint-mobile"] + button'
+
+bbc.com#$#specificClicker '.sticky-player--enabled.sticky-player--pinned.sticky-player--visible .sticky-player__close-button'
+
+thesun.co.uk#$#specificClicker '.video-js[data-test-id*="docked"] .vjs-close-button'
+
+inews.co.uk#$#specificClicker '.dailymotion-cpe.player_div .insider.pip > .cpeClosePipBtn'
+
+dailyrecord.co.uk#$#specificClicker '.mod-video.float-and-park[data-mod="video"] .float-and-park-close'
+mirror.co.uk#$#specificClicker '.mod-video.float-and-park[data-mod="video"] .float-and-park-close'
+
+lenta.ru#$#specificClicker '.b-video-box__player.js-video-box__player._is-sticked .b-video-box__close'
+
+inews.co.uk#$#specificClicker '.insider.pip > iframe[title*="video"] + .cpeClosePipBtn'
+
+parkiet.com#$#specificClicker '.component-tv.-invisible .component-tv__video.video-ratio.-visible[style*="fixed"] .js-tv-close'
+
+vg.no#$#specificClicker '.desktop__video-wrapper--sticky .video-nav__button[title="Flytt til topp"]'
+
+networkworld.com#$#specificClicker '.jw-floating-dismissible' '#jw-standalone-close-button'
+
+metrolyrics.com#$#specificClicker '#videoContainer.video-container-inline.pinned-player .video-close'
+
+blick.ch#$#specificClicker '.blick-tv--preview .blick-tv__headline-container__close a'
+
+cbsnews.com#$#specificClicker '.embed__content--draggable.floating .player-overlay__button--close'
+
+steampowered.com#$#specificClicker '#application_root div[class*="broadcast_embeddable_video_placeholder"] > div[class*="floating"] button'
+
+chip.de#$#specificClicker '.Article__Introvideo div[style*="fixed"] > button, .Article__Video div[style*="fixed"] > button, .NewsArticle__ChapterVideo div[style*="fixed"] > button'
+
+washingtonpost.com#$#specificClicker '.powa-sticky-stuck.powa-sticky .powa-sticky-close'
+
+aftonbladet.se#$#specificClicker 'main div[style*="transform"] + button[style*="left"]'
+
+thehill.com#$#specificClicker '.player-container.player-minimize .close-btn'
+
+ottawacitizen.com#$#specificClicker '#featured-video.featured-video--fixed #close-video'
+montrealgazette.com#$#specificClicker '#featured-video.featured-video--fixed #close-video'
+
+dagbladet.no#$#specificClicker '.sticky-section.player-minimize[class*="PlayerWrapper"] .close-sticky-btn'
+
+huffingtonpost.co.uk#$#specificClicker '.vdb_player .o2-in-side-view .side-view-close-button'
+
+nbcnewyork.com#$#specificClicker '.video-flyout.video-flyout--fixed .video-flyout__dismiss'
+
+simplyrecipes.com#$#specificClicker '.fexy-video-widget.floating .close'
+
+metro.co.uk#$#specificClicker '#metro_chromeless__close'
+
+dagbladet.no#$#specificClicker '.embed-player-minimized > button'
+
+gamereactor.eu#$#specificClicker '.videoinside.playersmall .close_playersmall'
+
+usatoday.com#$#specificClicker '//div[@data-g-s[//div[contains(@class, "teal-video")]]]/button[contains(@aria-label, "Close")]$continue,xpath'
+
+goodmorningliberty.us#$#specificClicker '#POPUPS_ROOT [data-testid*="mesh"] > [role="button"]'
+
+nascar.com#$#specificClicker '.amp-player.amp-ready.fixed' '.fixed-video-close-btn.active'
+
+freep.com#$#specificClicker '//div[starts-with(@id, "TealPlayerDefault")]/parent::div/button[contains(@aria-label, "Close")]$xpath'
+
+dailymail.co.uk#$#specificClicker '.vjs-flyout-on ~ .vjs-flyout-wrapper-fixed .vjs-flyout-close'
+
+nettavisen.no#$#specificClicker '.brick-video.flowplayer.is-popped-out .fp-exit-float'
+
+tvspielfilm.de#$#specificClicker '#playercontainer- > #player- > div > div[style*="fixed"] > button'
+
+tvtoday.de#$#specificClicker '.xymatic-video > div > div[style*="fixed"] > button'
+
+guru99.com#$#specificClicker '#primis_container_div [id*="primis_player"][style*="fixed"] #closeIcon'
+
+bicycling.com#$#specificClicker '.vjs-wrapper.vjs-sticky .glimmer-close'
+
+lefigaro.fr#$#specificClicker '.video-js.is-sticky:not(.sticky-hidden) .vjs-close-sticky-button'
+
+lefigaro.fr#$#specificClicker '#flive-loop .sticky.visible .close'
+
+blu-ray.com#$#specificClicker '#tyche_trendi_video_container.is-docked #pw-close-btn'

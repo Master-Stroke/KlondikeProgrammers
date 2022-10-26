@@ -1,0 +1,281 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+
+  <title>Сравнение текстов онлайн</title>
+  
+  <script language="JavaScript" type="text/javascript" src="diff_mat2.js"></script>
+  <script language="JavaScript" type="text/javascript" src="localstoragest.js"></script>
+  <script language="JavaScript" type="text/javascript" src="special_character_html.js"></script>
+<script language="JavaScript" type="text/javascript" src="clipboard.min.js"></script>
+
+<script>
+new ClipboardJS('.btn-copy');
+function exportHTML(){
+       var header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' "+
+            "xmlns:w='urn:schemas-microsoft-com:office:word' "+
+            "xmlns='http://www.w3.org/TR/REC-html40'>"+
+            "<head><meta charset='utf-8'><title>Created with text.num2word.ru</title></head><body>";
+       var footer = "</body></html>";
+       var sourceHTML = header+document.getElementById("outputdiv").innerHTML+footer;
+       
+       var source = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(sourceHTML);
+       var fileDownload = document.createElement("a");
+       document.body.appendChild(fileDownload);
+       fileDownload.href = source;
+       fileDownload.download = 'text-num2word.doc';
+       fileDownload.click();
+       document.body.removeChild(fileDownload);
+}
+</script>
+</head><body onload="document.getElementById('text1').focus();LSST1();LSST2();">
+
+
+<script type="text/javascript" language="JavaScript">
+
+  class ElementLooper {
+  /**
+   * @param {function():HTMLElementCollection} elementsProvider
+   *
+  **/
+  constructor(elementsProvider) {
+    // this callback provides the element list
+    this.getElements = elementsProvider;
+    this.index = -1;
+  }
+  /**
+   * @returns {HTMLElement}
+   **/
+  get nextElement() {
+    this.index++;
+    // Wrap back to zero
+    if(this.index >= this.length) {
+      this.index = 0;
+    }
+    return this.currentElement;
+  }
+  get previousElement() {
+    this.index--;
+    // Wrap back to last element
+    if(this.index < 0) {
+      this.index = this.length - 1;
+    }
+    return this.currentElement;
+  }
+  get currentElement() {
+    if(this.index >= 0 && this.index < this.length) {
+      return this.getElements()[this.index];
+    }
+    else {
+      return null;
+    }
+  }
+  get length() {
+    return this.getElements().length;
+  }
+}
+// Create a looper that uses our callback for elements
+const looper = new ElementLooper(getHiglightedParts);
+
+function down(){
+    if(looper.currentElement)
+        looper.currentElement.classList.remove("active");
+    const next = looper.nextElement;
+    if(next) {
+        next.classList.add("active")
+        next.scrollIntoView();
+    }
+};
+function up(){
+    if(looper.currentElement)
+        looper.currentElement.classList.remove("active");
+    const previous = looper.previousElement;
+    if(previous) {
+        previous.classList.add("active")
+        previous.scrollIntoView();
+    }
+};
+window.up = up;
+window.down = down;
+
+let highlightedParts = null;
+// fetch the highlighted part list only when needed
+function getHiglightedParts() {
+    if(highlightedParts == null)
+        highlightedParts = document.querySelectorAll(".change_scroll");
+    return highlightedParts;
+}
+// If you change what parts are highlighted, reset to list to null and it will be updated when needed
+function highlightedPartsChanged() {
+    highlightedParts = null;
+}
+window.addEventListener("keydown", function (e) {
+  if(e.keyCode==13){
+    down();
+  } 
+  });
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript" language="JavaScript">
+var dmp = new diff_match_patch();
+
+function launch() {
+  if (document.getElementById('SCH').checked) {special_character_html();}
+  document.getElementById('outputdiv').innerHTML = "";
+  if (document.getElementById('rgs').checked) {
+  var replacement1 = document.getElementById('text1').value;
+  var replacement2 = document.getElementById('text2').value;
+  var color1 = document.getElementById('color1').value;
+  var color2 = document.getElementById('color2').value;
+
+  document.forms["general"].reset();
+
+  document.getElementById('text2').innerHTML = replacement2.toLowerCase();
+  document.getElementById('text1').innerHTML = replacement1.toLowerCase();
+  document.getElementById('color1').value = color1;
+  document.getElementById('color2').value = color2;
+  }
+  var text1 = document.getElementById('text1').value;
+  var text2 = document.getElementById('text2').value;
+
+  dmp.Diff_Timeout = parseFloat(document.getElementById('timeout').value);
+  dmp.Diff_EditCost = parseFloat(document.getElementById('editcost').value);
+
+  var ms_start = (new Date()).getTime();
+  var d = dmp.diff_main(text1, text2);
+  var ms_end = (new Date()).getTime();
+
+  if (document.getElementById('semantic').checked) {
+    dmp.diff_cleanupSemantic(d);
+  }
+  if (document.getElementById('efficiency').checked) {
+    dmp.diff_cleanupEfficiency(d);
+  }
+  if (document.getElementById('Dpara').checked) {var Dpara = 1;}else{var Dpara = 0;}
+    if (document.getElementById('Dspace').checked) {var Dspace = 1;}else{var Dspace = 0;}
+    var ds = dmp.diff_prettyHtml(d,Dpara,Dspace);
+
+  document.getElementById('outputdiv').innerHTML = ds;
+  if (ds.search("#") != -1) {
+    document.getElementById('outputdiv1').innerHTML = '<font color="red"><STRONG>Тексты разные! В текстах присутствуют различающиеся фрагменты. Их всего:&nbsp;'+document.querySelectorAll(".change_scroll").length+'&nbsp;.</STRONG></font>';
+  }
+  else {
+    document.getElementById('outputdiv1').innerHTML = '<font color="green"><STRONG>Тексты одинаковые! В текстах отсутствуют различающиеся фрагменты.</STRONG></font>';
+  }
+}
+
+function replacement() {
+  var replacement1 = document.getElementById('text1').value;
+  var replacement2 = document.getElementById('text2').value;
+  var color1 = document.getElementById('color1').value;
+  var color2 = document.getElementById('color2').value;
+
+  document.forms["general"].reset();
+
+  document.getElementById('text2').innerHTML = replacement1;
+  document.getElementById('text1').innerHTML = replacement2;
+  document.getElementById('color1').value = color1;
+  document.getElementById('color2').value = color2;
+}
+
+function erase() {
+  var color1 = document.getElementById('color1').value;
+  var color2 = document.getElementById('color2').value;
+  document.getElementById('text1').innerHTML = "";
+  document.getElementById('text2').innerHTML = "";
+  document.getElementById('color1').value = color1;
+  document.getElementById('color2').value = color2;
+}
+
+function registr()
+{
+  var replacement1 = document.getElementById('text1').value;
+  var replacement2 = document.getElementById('text2').value;
+  var color1 = document.getElementById('color1').value;
+  var color2 = document.getElementById('color2').value;
+
+  document.forms["general"].reset();
+
+  document.getElementById('text2').innerHTML = replacement2.toLowerCase();
+  document.getElementById('text1').innerHTML = replacement1.toLowerCase();
+  document.getElementById('color1').value = color1;
+  document.getElementById('color2').value = color2;
+}
+
+function steret()
+{
+  var color1 = document.getElementById('color1').value;
+  var color2 = document.getElementById('color2').value;
+  document.getElementById('text1').innerHTML = "";
+  document.getElementById('text2').innerHTML = "";
+  document.forms["general"].reset();
+  document.getElementById('color1').value = color1;
+  document.getElementById('color2').value = color2;
+  document.getElementById('text1').focus();
+}
+
+</script>
+<div id="din_block1"><center><h1>Сравнение текстов онлайн (text.num2word.ru)</h1></center>
+<font color="red"><input name="SCH" id="SCH" type="checkbox" value="rus" onclick="special_character_html();">Убрать все спецсимволы HTML&nbsp;</font>
+
+<a href="http://text.num2word.ru/special_character_html.html" style="color: red" target="_blank">список</a>&nbsp;<strong>|</strong>&nbsp;<font color="red"><input name="Dspace" id="Dspace" type="checkbox" value="rus">Убрать несовпадение пробелов (работает лучше при включенном режиме "Без очистки")&nbsp;</font><strong>|</strong>&nbsp;<font color="red"><input name="Dpara" id="Dpara" type="checkbox" value="rus" title="Новый параграф будет учитываться, убирается только сам знак параграфа">Убрать знак ¶&nbsp;</font><strong>|</strong>&nbsp;<input name="rgs" id="rgs" type="checkbox" value="rus" onclick="registr();">Заглавные/строчные не важны&nbsp;<strong>|</strong>&nbsp;<input type="button" value="Стандартный цвет текста" onclick="LSST_clear();">&nbsp;<strong>|</strong>&nbsp;<strong><em><font size="-1">Для перехода между отличиями в тексте нажмите Enter либо с помощью кнопок вверх/вниз</font></em></strong><br>
+<form name="general">
+<table width="100%"><tbody><tr>
+  <td width="50%">
+<h3>Первый текст <input id="color1" value="" type="color" onchange="LSST_create_write1();">:</h3>
+<textarea id="text1" style="width: 100%" rows="10"></textarea></td>
+  <td width="50%">
+<h3>Второй текст <input id="color2" value="" type="color" onchange="LSST_create_write2();">:</h3>
+<textarea id="text2" style="width: 100%" rows="10"></textarea></td>
+</tr></tbody></table>
+<center>
+<table width="100%"><tbody><tr>
+  <td width="50%" align="center">
+<button name="button1" type="BUTTON" onclick="replacement();" style="WIDTH: 500px; HEIGHT: 40px"><strong>Поменять текст местами</strong></button>
+</td><td width="50%" align="center">
+<button name="buttom2" type="button" onclick="steret();" style="WIDTH: 500px; HEIGHT: 40px"><strong>Стереть</strong></button></td>
+</tr></tbody></table>
+</center>
+Время остановки сравнения:&nbsp;&nbsp;&nbsp;<input type="text" size="3" maxlength="5" value="3" id="timeout" title="Если сравнение занимает больше времени чем данное значение, то сравнение прерывается и выводится результат, который успел вычислиться. Необходимо иметь ввиду, что он будет корректным, но не оптимальным. Значение '0' позволяет задать неограниченное время сравнения.">&nbsp;секунд(ы)<br><br>
+Настройка результата отображения сравнения:
+<dl>
+<dt><input type="radio" name="cleanup" id="semantic" checked="" title="Увеличение визуального восприятия за счет сложения случайных знаков.">
+<label for="semantic">Семантическая очистка</label></dt>
+<dt><input type="radio" name="cleanup" id="efficiency" title="Увеличение вычислительной эффективности за счет сложения коротких знаков. Чем больше значение 'значение редактирования', тем более заметная очистка.">
+<label for="efficiency">Эффективная очистка</label>,
+значение редактирования (количество знаков суммирования): <input type="text" size="3" maxlength="5" value="4" id="editcost" title="Увеличение вычислительной эффективности за счет сложения коротких знаков. Чем больше значение 'значение редактирования', тем более заметная очистка.">
+</dt><dt><input type="radio" name="cleanup" id="raw" title="Вывод по умолчанию.">
+<label for="raw">Без очистки</label></dt>
+</dl>
+<center><button type="button" onclick="highlightedPartsChanged(); launch();" style="WIDTH: 700px; HEIGHT: 40px"><strong>Сравнить</strong></button></center>
+</form>
+
+<br><div id="outputdiv1"></div><br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td align="left" width="13%">
+      <strong>Результат сравнения:</strong>
+    </td>
+    <td align="left" width="87%">
+      <button id="btn-export-word" onclick="exportHTML();">Экспортировать в Word</button>
+    </td>
+  </tr>
+</tbody></table>
+==================================================<br>
+<div id="outputdiv"></div>
+<br>==================================================<br>
+<hr>
+
+</div>
+
+
+
+
+
+
+</body></html>

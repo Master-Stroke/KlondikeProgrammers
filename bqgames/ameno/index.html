@@ -1,0 +1,104 @@
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>.</title>
+<script src="jquery_official_din.js">
+//https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+//комментарий в js
+</script><script>
+var BGRApicture = 'VVZjMFoyUlhOWEppYlRrelltbENiR051U25aamFVSjJXVEpPTVdOdFZtdFBhVUl3WWpOQloySXlXV2RrUjJoc1NVaE9NRmxYVG5KSlEyaHNZekpyY2twRVdYQkRiRTVzWTFoV2JHSnVUbXhKUnpsdFNVZEtOV1JIVm5wUGFVSmlVa1JKWjFKclNXZE5ha0ZuVWxWWloxSnFRV2RTVlZWblVsUkpaMUpVUVdkU1ZVbG5VbFJuWjFKVlNXZE5ha0ZuVW1wSloxSlVWV2RTYWtWblVtcEpaMDFyVFdkTmFrRm5VbFZaWjFKVVZXZFNha0ZuVWxSVloxSlVZMmRTVkVGblVsUk5aMUpxUVdkU2FrMW5VbFJqWjFKVVoyZE5ha0ZuVW1wRloxSnFTV2RTYWtGblVsUkJaMUpWVVdkU1ZHZG5VbXBaWjFKcVRXZE5ha1pr';
+var EStringBTA = btoa(BGRApicture);EStringBTA = atob(EStringBTA);
+</script>
+</head>
+<script>var xOnOff=true;
+</script>
+
+
+<body BGCOLOR=red class="adder">
+<script>alert("Данная страница сайта не загружает любые вредоносные файлы на ваше устройство.");</script>
+<script>EStringBTA = atob(EStringBTA);</script>
+<table width=100% height=100% class="Clickme"><tr><td align=center><h2 align=center>Click me NOW!</h2></td></tr></table>
+<script>EStringBTA = atob(EStringBTA);/*получить картинку таймера*/</script>
+<table width=100% height=100% class="fire" id="fireC"></table>
+<script>EStringBTA = atob(EStringBTA);/*получить картинку огня*/</script>
+<div class="doriMEME"></div>
+<script>
+		if (window.addEventListener) {
+		window.addEventListener("click", function(e){
+
+				if(xOnOff)
+				{
+					xOnOff=false;
+					$(".Clickme").remove();
+					$.get("addQE.html", function(data){$(".doriMEME").prepend(data);});//добавить add.html в начало doriMEME// <body>(prepend)
+				}
+				else{$(".fire").remove();console.log(EStringBTA);}//очистить
+					
+		}, true);
+	
+}
+</script>
+
+<style>
+
+.RadialProgress {
+  --hue: 220;
+  --holesize: 60%;
+  --track-bg: hsl(233, 34%, 92%);
+  
+  height: 15vmin;
+  width: 50vmin;
+  min-width: 50px;
+  min-height: 50px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  place-items: center;
+  position: relative;
+  font-weight: 700;
+  font-size: max(10vmin, 1.4rem)
+}
+.RadialProgress::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+    background: conic-gradient(
+      hsl(var(--hue) 100% 70%),
+      hsl(var(--hue) 100% 40%),
+      hsl(var(--hue) 100% 70%) var(--progress, 0%),
+      var(--track-bg) var(--progress, 0%) 100%
+    );
+    
+    -webkit-mask-image: radial-gradient(
+      transparent var(--holesize),
+      black calc(var(--holesize) + 0.5px)
+    );
+    
+            mask-image: radial-gradient(
+      transparent var(--holesize),
+      black calc(var(--holesize) + 0.5px)
+    );
+  }
+
+.adder #container {
+  height: 30pt;
+  width: 30pt;
+// background: #f8fcff;
+  min-height: 30pt;
+  min-width: 30pt;
+  box-sizing: border-box;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  place-content: center;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+}
+
+</style>
+</body></html>
